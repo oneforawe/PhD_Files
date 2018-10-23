@@ -1,0 +1,163 @@
+Filename: 01_vt_Directory.txt
+Author: Andrew Forrester <aforrester@ucla.edu>
+Description: This file is a directory to find the set of programs for the vortex theories ("vt") and their accessories.
+
+
+Directory of research files: programs and accessories
+====================================================================
+
+
+Note
+--------------------------------------------------------------------
+ ~ = /home/zero
+ . = ~/Documents/School/UCLA/Research/Williams/
+
+
+
+Programs                   Location (notes)
+--------------------------------------------------------------------
+
+-2D------------------      (the 2D programs other than flow and K0cFind, e.g. constT, macro, quench, etc., could be updated to conform with the 3D techniques and style)
+
+2Dvpt_flow.c
+2Dvpt_K0cFind.c
+2Dvpt_constT.c
+2Dvpt_macro.c
+2Dvpt_quench.c
+2Dvpt_quench_new.c
+2Dvpt_inject_steady.c
+2Dvpt_inject.c
+
+
+2Dvpt_K0cFind_Plot.c       ./alt  (interesting older version using old technique)
+
+
+
+-3D------------------
+
+3Dvlt_KstarFind.c
+3Dvlt_flow.c
+3Dvlt_K0cFind.c
+3Dvlt_K0cFind_Plot.c
+3Dvlt_constT.c
+3Dvlt_macro.c
+3Dvlt_macro_cp.c             (using derk.c)
+
+
+3Dvlt_macro_cp_table.c       (should use derk.c)
+3Dvlt_macro_cp_extra.c       (should use derk.c)
+3Dvlt_macro_cp_TermCheck.c   (should use derk.c)
+
+3Dvlt_pderk.c                ./programs/PreciseTry/vlt_pderk.c      (using gnu mp)
+3Dvlt_pHeatCap_P.c           ./programs/PreciseTry/vlt_pHeatCap_P.c (using gnu mp)
+
+
+
+
+
+
+Spreadsheets               Location
+--------------------------------------------------------------------
+HeliumDensities.ods        ./programs/supporting/HeliumDensities.ods
+RhosAmps.ods               ./programs/results/RhosAmps.ods
+HeatCapFits.ods            ./programs/results/HeatCapFits.ods
+
+
+
+Plot Image Compilations    Location
+--------------------------------------------------------------------
+ProgramPlotsIF.pdf         ./Images/ProgramPlotsIF.pdf
+ProgramPlotsSF.pdf         ./programs/supporting/ProgramPlotsSF.pdf
+ProgramPlots1.pdf          ./programs/results/ProgramPlots1.pdf
+ProgramPlots2.pdf          ./programs/results/ProgramPlots2.pdf
+ProgramPlotsA.pdf          ./programs/results/ProgramPlotsA.pdf
+
+
+
+Plot Folders
+--------------------------------------------------------------------
+K0cFind Plots
+01: THETA=0.6    6 in y recursion relation
+02: THETA=0.6918 9 in y recursion relation
+03: THETA=0.6    9 in y recursion relation
+
+
+(Early) Equilibrium Plots
+plots1: 
+        using ring1.c (others?)
+plots2: 
+plots3: 
+plots4: 
+plots5: Cc in recursion relations, Cc ~1.20 to 0.00 (but found mostly negative pressures)
+plots6: Cc in recursion relations, Cc ~0.28 to 0.18 (to get positive pressures)
+plots7: Cc out of recursion relations again, but A0 increased by a factor of 2 (using B'=2B)
+        using vlt_CcK01Input??.dat
+              vlt_CcK01Input11.dat
+plots8: A0 decreased by a factor of 2 (using B'=B/2)
+plots9: lastest normal run (checking to see why previous couple runs have been bad, with constant superfl ratios)
+        *oops, forgot to take Cc out of recursion relations in ThermStates.c!  Running plots7 - plots9 again...)
+        using vlt_CcK01Input12.dat
+              vlt_CcK01Input13.dat
+
+
+Macro Plots
+2D_01:
+3D_01:
+3D_02: New recursion relations (9vs6), THETA=0.6918
+3D_03: New recursion relations (9vs6), THETA=0.6
+3D_04: New recursion relations (9vs6), from 3Dvlt_K0cFind.c v9 Ouput19 n=9 (not 6) THETA=0.6918  (B corrected to have PICU*PISQ, not PICU*PICU) -> negative pressures!
+3D_05: Different set of Cc's, trying to see where pressures become positive, but the critical exponent fits don't seem to work for these Cc's
+3D_06: B reduced by half (trying to get positive pressures), didn't change much (3Dvlt_K0cFind_Input21.dat)
+3D_07: B reduced by factor 100     (3Dvlt_K0cFind_Input22.dat)
+3D_07: B reduced by factor 100,000 (3Dvlt_K0cFind_Input23.dat)
+
+
+ConstT Plots
+2D_01: 2Dvpt_constT.c version 2
+2D_02: 2Dvpt_constT.c version 3
+3D_01:
+
+
+Quench Plots
+2D_01:
+2D_02: 
+2D_03: program version 2, where Gamma should no longer fall below its new equilibrium curve
+2D_04: program version 3, simplified (without using y, using recursion relations for just K and Gamma)
+2D_05: various boundary conditions implemented (turns out Hanching's is the best, when checked by mine)
+2D_06: trying to take more steps (10,000, so smaller step size) to lmax=10 (turns out it's not possible, limits on dl and dt to get rid of numerical/error instability)
+2D_07: small systems, quick decay of density (Success)
+2D_08: trying different large-scale boundary conditions (Gamma=0)... but this can't be right because Gamma will fall below new equilibrium curve
+
+3D_01: Cc in recursion relations (right?)
+3D_02: Cc out of recursion relations again, but A0 increased by a factor of 2 (using B'=2B)
+3D_03: tdq: normal run (taking the derivative of q: "tdq")
+3D_04: pqo: latest normal run (pulling q out of the derivative: "pqo")
+3D_05: tdq: latest normal run, small instantaneous quench
+       do both? AND? (pulling q out of the derivative: "pqo")
+3D_06: tdq: not allowing ac' to exceed a, taking out Kthresh
+3D_07: program version 6,
+         Not allowing ac' to exceed a,
+         not allowing Gamma to fall below its equilibrium curve,
+         simplified (without using y, using recursion relations for just K and Gamma)
+3D_08: program version 6,
+         ( temporarily printing out dG )
+         Not allowing nan's (infinities) at the boundary to propagate (domino-like) over time and blow up Gamma,
+         Not allowing ac' to exceed a,
+         not allowing Gamma to fall below its equilibrium curve,
+3D_09: program version 7,
+         ( temporarily printing out dG )
+            Bringing back the K,y recursion relations (since the K,G recursion relations produced a bad equilibrium Gamma distribution at Tc -- need more lsteps to make that technique work nicely)
+            Not allowing nan's (infinities) at the boundary to propagate (domino-like) over time and blow up Gamma
+            Not allowing ac' to exceed a, not allowing Gamma to fall below its equilibrium curve.
+            Kthresh is not used since ac' is not allowed to exceed a.
+            Later, if this version works nicely, I could revert to the previous form of code that doesn't use newlpts. */
+3D_10: program version 8 (found, via boundary conditions, that the recursion relations are incorrect)
+3D_11: program version 9
+
+
+Injection Plots
+2D_01: using wrong recursion relation
+2D_02: injection, steady state only
+2D_03: equilibrium then injection, injection then turn-off
+2D_04: different boundary conditions (finite system with forced minimum for end value of Gamma)
+
