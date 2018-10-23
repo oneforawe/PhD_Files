@@ -1,0 +1,412 @@
+Filename: 02_vt_ProgramNotes.txt
+Author: Andrew Forrester <aforrester@ucla.edu>
+Description: This file is a collection of notes to describe the set of programs for the vortex theories ("vt").  (This is probably an obsolete file, not worth much.)
+
+
+Program Notes
+====================================================================
+
+
+In order of fundamentality, the programs are:
+
+vlt_derk.c
+vlt_K0cFind.c
+vlt_ThermStates.c
+vlt_HeatCap_P.c
+vlt_ThermStates_P.c
+
+
+
+
+
+
+
+Program diagrams/outlines:
+
+
+2DKT_FPquench.c
+
+main(){
+	/* prep, bndy conditions */
+    /***** Initial (n=0) Equilibrium Calculations *****/
+	/* Initialize, print initial data */
+	/* equil: l-step out K and y */
+	for(each lpt){
+		/* equil: rk4 2D (K and y), EqRecRel */
+		/* increment l, calc G */
+		/* Print data */
+	}
+    /***** After (n>=1) Instantaneous "Quench" (Temperature Drop) *****/
+	/* Initialize */
+	/* nequil: l-step out K */
+	for(each lpt)
+		/* nequil: rk4 1D (K), fpKRecRel */ ***
+	/* Advance in time: rk3 1D (G), fpGRecRel */
+	while(t<=tmax+dt){
+		n++;
+		t += dt;
+		/* Calculate dGdt, for all length scales */ ***
+		for(each lpt)
+			/* calc testDGDt[i][0] and k1[i] */ ***
+		for(each lpt)
+			/* calc testDGDt[i][1] and k2[i] */ ***
+		for(each lpt)
+			/* calc testDGDt[i][2] and k3[i] and G */ ***
+		/* Calculate K at progressively larger length scales, up to coherence length, via Runge-Kutta method (derk1) */
+		for(each lpt){
+			/* nequil: rk4 1D (K), fpKRecRel */ ***
+		}
+		/* At certain times, print out the results */
+	}
+}
+
+
+
+
+
+
+
+
+Adaptive Steps:
+
+
+main(){
+	/* prep, bndy conditions */
+    /***** Initial (n=0) Equilibrium Calculations *****/
+	/* Initialize, print initial data */
+	/* equil: l-step out K and y */
+	for(each lpt){
+		/* equil: rk4 2D (K and y), EqRecRel */
+		/* check errors (in K and y), redo (w/ smaller increment) or proceed (setting larger increment) */
+		/* increment l, calc G */
+		/* Print data */
+	}
+    /***** After (n>=1) Instantaneous "Quench" (Temperature Drop) *****/
+	/* Initialize */
+	/* nequil: l-step out K */
+	for(each lpt)
+		/* nequil: rk4 1D (K), fpKRecRel */ ***
+		/* check error (in K), redo (w/ smaller increment) or proceed (setting larger increment) */
+	/* Advance in time: rk3 1D (G), fpGRecRel */
+	while(t<=tmax+dt){
+		n++;
+		t += dt;
+		/* Calculate dGdt, for all length scales */ ***
+		for(each lpt)
+			/* calc testDGDt[i][0] and k1[i] */ ***
+		for(each lpt)
+			/* calc testDGDt[i][1] and k2[i] */ ***
+		for(each lpt)
+			/* calc testDGDt[i][2] and k3[i] and G */ ***
+		/* Calculate K at progressively larger length scales, up to coherence length, via Runge-Kutta method (derk1) */
+		for(each lpt){
+			/* check error (in G), redo (w/ smaller increment) or proceed (setting larger increment) */
+		}
+		/* At certain times, print out the results */
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main(){
+	/* prep, bndy conditions */
+    /***** (n=0) Initial Equilibrium Calculations *****/
+	/* Initialize, print initial data */
+	Set iTfrac, l[0], K[0], G[0]
+	/* equil: l-step out K, y, and G */
+	i=0;
+	while(l<lmax){
+		/* Step out in length scale l, calculating next l, K, y */
+		while(ACCURATE==0){  // repeat until (G is) accurate
+			ACCURATE = 1;
+			calc K,y to desired accuracy:
+			my_rkf6(EqRecRel, l[i], dl[i], z, DRE, 2, dltemp, ztemp, zerr);
+			// equil: rkf6 2D (K and y), EqRecRel, adaptive step to desired relative error DRE
+			calc Gtemp
+			calc Gerr
+			/* check error (in G), redo (w/ smaller increment)
+			   or proceed (continuing with larger increment, already defined in my_rkf6) */
+			errfrac = dre*Gtemp/Gerr;  // (desired error)/(calculated error)
+			if(errfrac<1.0){  // errfrac<1.0 means calculated error is too big
+				ACCURATE = 0;
+				dl[i] = dltemp*pow(errfrac,0.2);
+			}  // otherwise, use the dl already defined by my_rkf6
+			K[i] = z[0];
+		}
+		/* Print at most [ldatamax] (e.g., 50) data points to screen and output file */
+		if(l>=j*dataDl){
+			while(l>=j*dataDl)  j++;
+			printf(         "%g\t%g\t%g\t%g\t%g\t%g\n", iTfrac, 1-iTfrac, l[i], K[i], K[i]/K0, G[i]);
+			fprintf(outfile,"%g\t%g\t%g\t%g\t%g\t%g\n", iTfrac, 1-iTfrac, l[i], K[i], K[i]/K0, G[i]);
+		}
+		i++;
+	}
+	fflush(outfile);
+
+
+
+
+	/************************************************************/
+	/*                                                          */
+	/*  (n>=1) After Instantaneous "Quench" (Temperature Drop)  */
+	/*                                                          */
+	/************************************************************/
+
+	/* Initialize */
+	l = 0.0;
+	dl = dl0;
+	K0 = K0c/qTfrac;
+	//y0 = exp(-PISQ*K0/2.0);
+	Kcalc[0] = K0;
+	K = Kcalc[0];
+	//G[0] = exp(-4.0*l[0])*y0*y0/a04;  // G (not = 0.0)  //  (correct location?)
+
+	/* Calculate K at progressively larger length scales, up to coherence length, via Runge-Kutta method (derkK) */
+	while(l<lmax){
+		//derk(fpKRecRel, &x, Kcalc, dl, 1);  // nequil: rk4 1D (K), fpKRecRel
+		my_rkf6(fpKRecRel, &l, Kcalc, dl, 1);  // nequil: rkf6 1D (K), fpKRecRel
+		K = Kcalc[0];
+		/* check error (in K), redo (w/ smaller increment) or proceed (setting larger increment) */
+	}
+
+
+
+	while(l<lmax){
+		/* Step out in length scale l, calculating next K, y, l, and G */
+		my_rkf6(EqRecRel, &l, z, dl, 2);  // equil: rkf6 2D (K and y), EqRecRel
+		K = z[0]; 
+		G = z[1]*z[1]*exp(-4.0*l)/a04;
+		/* check errors (in K and y), redo (w/ smaller increment) or proceed (setting larger increment) */
+		// ...code
+		/* Print at most [ldatamax] (e.g., 50) data points to screen and output file */
+		if(l>=i*dataDl){
+			while(l>=i*dataDl)  i++;
+			printf(         "%g\t%g\t%g\t%g\t%g\t%g\n", iTfrac, 1-iTfrac, l, K, K/K0, G);
+			fprintf(outfile,"%g\t%g\t%g\t%g\t%g\t%g\n", iTfrac, 1-iTfrac, l, K, K/K0, G);
+		}
+	}
+	fflush(outfile);
+
+
+
+
+
+
+
+	/* Advance in time: rk3 1D (G), fpGRecRel */
+	while(t<=tmax+dt){
+		n++;
+		t += dt;
+		printf(         "# time step n = %ld\tt = %e\t(dt = %e)\t", n,t,dt);
+		//fprintf(outfile,"# time step n = %ld\tt = %e\t(dt = %e)\t", n,t,dt);
+
+		/* Calculate dGdt for all length scales, and update G */
+			/* nequil: rk4 1D (K), fpKRecRel */
+		for(i=1; i<lpts-1; i++){
+			fpGRecRel(l[i], dl, G);
+			k1[i]     = dGdt[0]*dt;
+			testG1[i] = G[i] + k1[i]/2.0;
+		}
+		testG1[0]      = testG1[1];
+		testG1[lpts-1] = testG1[lpts-2];
+
+		for(i=1; i<lpts-1; i++){
+			fpGRecRel(l[i], dl, testG1);
+			k2[i]     = dGdt[0]*dt;
+			testG2[i] = G[i] - k1[i] + k2[i];
+		}
+		testG2[0]      = testG2[1];
+		testG2[lpts-1] = testG2[lpts-2];
+
+		for(i=1; i<lpts-1; i++){
+			fpGRecRel(l[i], dl, testG2);
+			k3[i] = dGdt[0]*dt;
+			G[i]  = G[i] + k1[i]/6.0 + 2.0*k2[i]/3.0 + k3[i]/6.0;  //  update G here and below**
+			/* check error (in G), redo (w/ smaller increment) or proceed (setting larger increment) */
+		}
+		G[0]      = G[1];       //  **here
+		G[lpts-1] = G[lpts-2];  //  **and here
+
+		/* Initialize */
+		K0 = K0c/qTfrac;
+		K[0] = K0;  //  K
+
+		/* Calculate K at progressively larger length scales, up to coherence length, via Runge-Kutta method (derk1) */
+		x = 0.0;
+		Kcalc[0] = K[0];
+		for(i=1; i<lpts; i++){
+			//derk(fpKRecRel, &x, Kcalc, dl, 1);  // nequil: rk4 1D (K), fpKRecRel
+			my_rkf6(fpKRecRel, &x, Kcalc, dl, 1);  // nequil: rkf6 1D (K), fpKRecRel
+			K[i] = Kcalc[0];
+		}
+
+		/* At certain times, print out the results */
+		if( (t>=0.1&&k==1) || (t>=1&&k==2) || (t>=10&&k==3) || (t>=100&&k==4) || (t>=1000&&k==5) || (t>=10000&&k==6) ){
+			fprintf(outfile,"\n# time step n = %ld\tt = %e\t(dt = %e)\n", n,t,dt);
+			fprintf(outfile,"# %s\t%s\t%s\t%s\t%s\t%s\n", "T/Tc","1-T/Tc","l","K","K/K0","G");
+			for(i=0; i<lpts; i++){
+				/* Print at most [ldatamax] (e.g., 1000) data points to screen and output file */
+				if(i%(lsteps/ldatamax)==0){
+					fprintf(outfile,"%g\t%g\t%g\t%g\t%g\t%g\n", qTfrac, 1-qTfrac, l[i], K[i], K[i]/K0, G[i]);
+					printf(         "%g\t%g\t%g\t%g\t%g\t%g\n", qTfrac, 1-qTfrac, l[i], K[i], K[i]/K0, G[i]);
+				}
+			}
+			fflush(outfile);
+			k++;
+		}
+
+		printf(         "%g\t%g\t%g\n", l[lpts-1], K[lpts-1]/K0, G[lpts-1]);
+		//fprintf(outfile,"%g\t%g\t%g\n", l[lpts-1], KG[lpts-1].c[0]/K0, KG[lpts-1].c[1]);
+		fflush(outfile);
+
+	}
+
+	fclose(outfile);
+}
+
+
+
+void my_rkf6(void (*derivs)(double, double*, double*, unsigned), double x, double h, double htemp, double y[], double ytemp[], yerr[], double dre, unsigned n){
+	int i,accurate=0;
+	double *k[6],*ycalc,minfrac=10.0,tempfrac;
+
+	for(i=0;i<6;i++)  k[i] = (double *)calloc(n,sizeof(double));
+	ytemp = (double *)calloc(n,sizeof(double));
+	yerr = (double *)calloc(n,sizeof(double));
+
+	htemp = h;
+	while(accurate==0){
+		accurate = 1;
+		derivs(x,y,k[0],n);           // get k1=k[0]
+		for(i=0;i<n;i++)  ycalc[i] = y[i]+h*b21*k[0][i];
+		derivs(x+a2*h,ycalc,k[1],n);  // get k2=k[1]
+		for(i=0;i<n;i++)  ycalc[i] = y[i]+h*(b31*h*k[0][i]+b32*k[1][i]);
+		derivs(x+a3*h,ycalc,k[2],n);  // get k3=k[2]
+		for(i=0;i<n;i++)  ycalc[i] = y[i]+h*(b41*k[0][i]+b42*k[1][i]+b43*k[2][i]);
+		derivs(x+a4*h,ycalc,k[3],n);  // get k4=k[3]
+		for(i=0;i<n;i++)  ycalc[i] = y[i]+h*(b51*k[0][i]+b52*k[1][i]+b53*k[2][i]+b54*k[3][i]);
+		derivs(x+a5*h,ycalc,k[4],n);  // get k5=k[4]
+		for(i=0;i<n;i++)  ycalc[i] = y[i]+h*(b61*k[0][i]+b62*k[1][i]+b63*k[2][i]+b64*k[3][i]+b65*k[4][i]);
+		derivs(x+a6*h,ycalc,k[5],n);  // get k6=k[5]
+
+		for(i=0;i<n;i++){
+			ytemp[i] = y[i] + h*(c1*k[0][i]+c3*k[2][i]+c4*k[3][i]+c5*k[4][i]+c6*k[5][i]);
+			yerr[i] = h*(dc1*k[0][i]+dc3*k[2][i]+dc4*k[3][i]+dc5*k[4][i]+dc6*k[5][i]);
+			tempfrac = dre*ytemp[i]/yerr[i];  // (desired error)/(calculated error)
+			if(tempfrac<minfrac)  minfrac = tempfrac;  // minfrac represents max error
+		}
+		if(minfrac<1.0)  accurate = 0;  // minfrac<1.0 means calculated error is too big
+		//else  for(i=0;i<n;i++)  y[i] = ytemp[i];
+		htemp = h*pow(minfrac,0.2);
+	}
+
+	for(i=0;i<6;i++)  free((char *) k[i]);
+	free((char *)ytemp);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code written to avoid the situation where the error in the G time-derivative cannot be reduced enough by shrinking the second dl
+(so there's a condition that if dl2 gets too small relative to dl1, then dl1 is shrunk by half)
+
+set K[0]
+get K[1] and dl[0]
+
+get K[2] and dl[1]
+get G[1] (with K[0],K[1],K[2], dl[0],dl[1] )
+	if error in G[1] is too big,
+		shrink dl[1]
+		if dl[1]<0.001dl[0]  reduce dl[0] by half and recalc K[1] and dl[1]
+		recalc K[2]
+		loop back to calc G[1]
+	else move on
+
+get K[3] and dl[2]
+get G[2] (with K[1],K[2],K[3], dl[1],dl[2] )
+	if error in G[2] is too big,
+		shrink dl[2]
+		if dl[2]<0.001dl[1]  reduce dl[1] by half and (recalc and check G[1]) recalc K[2] and dl[2]
+		recalc K[3]
+		loop back to calc G[2]
+	else move on
+
+get K[i] and dl[i-1]
+get G[i-1] (with K[i-2],K[i-1],K[i], dl[i-2],dl[i-1] )
+	if error in G[i-1] is too big,
+		----------------------------------------
+		Small fraction of the time FRAC, do this
+		----------------------------------------
+		shrink dl[i-1]
+		if dl[i-1]<0.001dl[i-2]  reduce dl[i-2] by 0.5 and (recalc and check G[i-2]) recalc K[i-1] and dl[i-1]
+		recalc K[i]
+		loop back to calc G[i-1]
+		--------------------------------------------------
+		The remaining fraction of the time 1-FRAC, do this
+		--------------------------------------------------
+		shrink dt
+		grow next dt
+	else move on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

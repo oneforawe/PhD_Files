@@ -1,0 +1,26 @@
+# Filename: 3Dvlt_K0cFind_Output38_Op1_uncert1e-17_dl1e-05.dat
+# Source: 3Dvlt_K0cFind.c
+# Source version: 11 (2012 Jul 24 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063
+# Parameter values: A3=41.3417022403997549418, THETA=0.6, N=2, dl=1e-05, uncertainty=1e-17, DK01=2
+			case 1:		Cc = 0.20;	K0c = 0.9346549781218052;	break;  // ac/a = K^theta*exp(C) = 1.172869 (@ Tc, l=0)
+			case 2:		Cc = 0.25;	K0c = 0.79674794984036801;	break;  // ac/a = K^theta*exp(C) = 1.120382 (@ Tc, l=0)
+			case 3:		Cc = 0.30;	K0c = 0.70109094206651523;	break;  // ac/a = K^theta*exp(C) = 1.090820 (@ Tc, l=0)
+			case 4:		Cc = 0.35;	K0c = 0.63025269735391265;	break;  // ac/a = K^theta*exp(C) = 1.075751 (@ Tc, l=0)
+			case 5:		Cc = 0.40;	K0c = 0.57534342964893814;	break;  // ac/a = K^theta*exp(C) = 1.070715 (@ Tc, l=0)
+			case 6:		Cc = 0.45;	K0c = 0.53132345421063487;	break;  // ac/a = K^theta*exp(C) = 1.073119 (@ Tc, l=0)
+			case 7:		Cc = 0.50;	K0c = 0.49510828997129153;	break;  // ac/a = K^theta*exp(C) = 1.081353 (@ Tc, l=0)
+			case 8:		Cc = 0.55;	K0c = 0.46469704703948356;	break;  // ac/a = K^theta*exp(C) = 1.094369 (@ Tc, l=0)
+			case 9:		Cc = 0.60;	K0c = 0.43873100720691904;	break;  // ac/a = K^theta*exp(C) = 1.111465 (@ Tc, l=0)
+			case 10:		Cc = 0.65;	K0c = 0.41625279991888953;	break;  // ac/a = K^theta*exp(C) = 1.132155 (@ Tc, l=0)
+			case 11:		Cc = 0.70;	K0c = 0.39656697289619258;	break;  // ac/a = K^theta*exp(C) = 1.156102 (@ Tc, l=0)
+			case 12:		Cc = 0.75;	K0c = 0.37915524531909928;	break;  // ac/a = K^theta*exp(C) = 1.183072 (@ Tc, l=0)
+			case 13:		Cc = 0.80;	K0c = 0.36362286558404033;	break;  // ac/a = K^theta*exp(C) = 1.212904 (@ Tc, l=0)
+			case 14:		Cc = 0.85;	K0c = 0.3496634698826776;	break;  // ac/a = K^theta*exp(C) = 1.245491 (@ Tc, l=0)
+			case 15:		Cc = 0.90;	K0c = 0.33703537107020987;	break;  // ac/a = K^theta*exp(C) = 1.280768 (@ Tc, l=0)
+			case 16:		Cc = 0.95;	K0c = 0.32554514449601912;	break;  // ac/a = K^theta*exp(C) = 1.318701 (@ Tc, l=0)
+			case 17:		Cc = 1.00;	K0c = 0.31503600689857347;	break;  // ac/a = K^theta*exp(C) = 1.359285 (@ Tc, l=0)
+			case 18:		Cc = 1.05;	K0c = 0.3053794236081705;	break;  // ac/a = K^theta*exp(C) = 1.402533 (@ Tc, l=0)
+			case 19:		Cc = 1.10;	K0c = 0.29646893900678273;	break;  // ac/a = K^theta*exp(C) = 1.448476 (@ Tc, l=0)
+			case 20:		Cc = 1.15;	K0c = 0.28821556877326282;	break;  // ac/a = K^theta*exp(C) = 1.497163 (@ Tc, l=0)
+			case 21:		Cc = 1.20;	K0c = 0.28054430897522864;	break;  // ac/a = K^theta*exp(C) = 1.548653 (@ Tc, l=0)
