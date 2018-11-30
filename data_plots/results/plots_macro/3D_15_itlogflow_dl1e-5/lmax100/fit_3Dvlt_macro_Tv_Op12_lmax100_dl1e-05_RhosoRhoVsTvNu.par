@@ -1,0 +1,50 @@
+#filename: fit_3Dvlt_macro_Tv_Op12_lmax100_dl1e-05_RhosoRhoVsTvNu.par
+#source: fit_3Dvlt_macro_Tv_Op12_lmax100_dl1e-05_RhosoRhoVsTvNu.gnu
+
+A' ( for  Rhos/Rho = A'*(1-T/Tc)^nu  at different Cc's / K0c's / Pressures )
+0.947236950765656
+1.10530749672814
+1.24550003643335
+1.37151032891256
+1.48594573950362
+1.59072545003058
+1.68730948068671
+1.776844174785
+1.86024618307064
+1.93826779690228
+2.01151958934747
+2.08051399558705
+2.14569751672733
+2.20743515212332
+2.26605523199855
+2.32182850548036
+2.37501279045475
+2.42580659071287
+2.47440555007487
+2.5209797268657
+2.56568294465858
+
+
+Put the following in plot_3Dvlt_macro_Tv_lmax100_dl0.001_Op2_RhosoRhoVsTvNu.gnu
+
+     0.947236950765656*x title " {/Times-Italic A}{/Symbol \242} = 0.94724 ", \
+     1.10530749672814*x title " {/Times-Italic A}{/Symbol \242} = 1.10531 ", \
+     1.24550003643335*x title " {/Times-Italic A}{/Symbol \242} = 1.24550 ", \
+     1.37151032891256*x title " {/Times-Italic A}{/Symbol \242} = 1.37151 ", \
+     1.48594573950362*x title " {/Times-Italic A}{/Symbol \242} = 1.48595 ", \
+     1.59072545003058*x title " {/Times-Italic A}{/Symbol \242} = 1.59073 ", \
+     1.68730948068671*x title " {/Times-Italic A}{/Symbol \242} = 1.68731 ", \
+     1.776844174785*x title " {/Times-Italic A}{/Symbol \242} = 1.77684 ", \
+     1.86024618307064*x title " {/Times-Italic A}{/Symbol \242} = 1.86025 ", \
+     1.93826779690228*x title " {/Times-Italic A}{/Symbol \242} = 1.93827 ", \
+     2.01151958934747*x title " {/Times-Italic A}{/Symbol \242} = 2.01152 ", \
+     2.08051399558705*x title " {/Times-Italic A}{/Symbol \242} = 2.08051 ", \
+     2.14569751672733*x title " {/Times-Italic A}{/Symbol \242} = 2.14570 ", \
+     2.20743515212332*x title " {/Times-Italic A}{/Symbol \242} = 2.20744 ", \
+     2.26605523199855*x title " {/Times-Italic A}{/Symbol \242} = 2.26606 ", \
+     2.32182850548036*x title " {/Times-Italic A}{/Symbol \242} = 2.32183 ", \
+     2.37501279045475*x title " {/Times-Italic A}{/Symbol \242} = 2.37501 ", \
+     2.42580659071287*x title " {/Times-Italic A}{/Symbol \242} = 2.42581 ", \
+     2.47440555007487*x title " {/Times-Italic A}{/Symbol \242} = 2.47441 ", \
+     2.5209797268657*x title " {/Times-Italic A}{/Symbol \242} = 2.52098 ", \
+     2.56568294465858*x title " {/Times-Italic A}{/Symbol \242} = 2.56568 "

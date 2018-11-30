@@ -1,0 +1,4 @@
+note
+
+It turns out that this result is almost exactly the same as the results in the thesis.  (See HeatCapFits.ods to confirm this statement.)
+

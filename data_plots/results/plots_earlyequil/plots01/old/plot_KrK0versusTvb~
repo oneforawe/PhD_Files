@@ -1,0 +1,21 @@
+set terminal png
+set output "plot_KrK0versusTvb.png"
+set title "Renormalized coupling constant fraction (Kr/K0) vs Temperature-variable (1-T/Tc) \n with different length-scale cuts-off"
+set ylabel "Kr/K0"
+set xlabel "1-T/Tc"
+set logscale xy
+set grid
+set key right bottom box title "Let tv = 1-T/Tc"
+plot "ring1_Dexp0.dat" using 1:7  with linespoints title "l_max = 0", \
+     "ring1_Dexp1.dat" using 1:7  with linespoints title "l_max = 1", \
+     "ring1_Dexp2.dat" using 1:7  with linespoints title "l_max = 2", \
+     "ring1_Dexp3.dat" using 1:7  with linespoints title "l_max = 3", \
+     "ring1_Dexp4.dat" using 1:7  with linespoints title "l_max = 4", \
+     "ring1_Dexp5.dat" using 1:7  with linespoints title "l_max = 5", \
+     "ring1_Dexp6.dat" using 1:7  with linespoints title "l_max = 6", \
+     "ring1_Dexp7.dat" using 1:7  with linespoints title "l_max = 7", \
+     "ring1_Dexp8.dat" using 1:7  with linespoints title "l_max = 8", \
+     "ring1_Dexp9.dat" using 1:7  with linespoints title "l_max = 9", \
+     "ring1_Dexp10.dat" using 1:7  with linespoints title "l_max = 10", \
+     "ring1_Dexp11.dat" using 1:7  with linespoints title "l_max = 11", \
+     "ring1_Dexp100.dat" using 1:7 with linespoints title " l_max = 100", \

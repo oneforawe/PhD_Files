@@ -1,0 +1,47 @@
+A' ( for  Rhos/Rho = A'*(1-T/Tc)^nu  at different Cc's / K0c's / Pressures )
+2.54752911319273
+2.45689950808939
+2.41846427869648
+2.40864066279905
+2.39873343576104
+2.38873853395947
+2.37865611833976
+2.36847474728622
+2.35821022192162
+2.34784163793297
+2.33738040150869
+2.32682244620833
+2.25002122041447
+2.13051772135556
+1.99738510364482
+1.84752282696777
+1.76484029862448
+1.67604671297598
+1.47624952349609
+1.23754156551565
+0.941308481751331
+
+
+Put the following in plot_vlt_ThermStates_lmax100_A_RhosoRhoVsTvNu.gnu
+
+     2.54752911319273*x title " {/Times-Italic A}{/Symbol \242} = 2.54753 ", \
+     2.45689950808939*x title " {/Times-Italic A}{/Symbol \242} = 2.45690 ", \
+     2.41846427869648*x title " {/Times-Italic A}{/Symbol \242} = 2.41846 ", \
+     2.40864066279905*x title " {/Times-Italic A}{/Symbol \242} = 2.40864 ", \
+     2.39873343576104*x title " {/Times-Italic A}{/Symbol \242} = 2.39873 ", \
+     2.38873853395947*x title " {/Times-Italic A}{/Symbol \242} = 2.38874 ", \
+     2.37865611833976*x title " {/Times-Italic A}{/Symbol \242} = 2.37866 ", \
+     2.36847474728622*x title " {/Times-Italic A}{/Symbol \242} = 2.36847 ", \
+     2.35821022192162*x title " {/Times-Italic A}{/Symbol \242} = 2.35821 ", \
+     2.34784163793297*x title " {/Times-Italic A}{/Symbol \242} = 2.34784 ", \
+     2.33738040150869*x title " {/Times-Italic A}{/Symbol \242} = 2.33738 ", \
+     2.32682244620833*x title " {/Times-Italic A}{/Symbol \242} = 2.32682 ", \
+     2.25002122041447*x title " {/Times-Italic A}{/Symbol \242} = 2.25002 ", \
+     2.13051772135556*x title " {/Times-Italic A}{/Symbol \242} = 2.13052 ", \
+     1.99738510364482*x title " {/Times-Italic A}{/Symbol \242} = 1.99739 ", \
+     1.84752282696777*x title " {/Times-Italic A}{/Symbol \242} = 1.84752 ", \
+     1.76484029862448*x title " {/Times-Italic A}{/Symbol \242} = 1.76484 ", \
+     1.67604671297598*x title " {/Times-Italic A}{/Symbol \242} = 1.67605 ", \
+     1.47624952349609*x title " {/Times-Italic A}{/Symbol \242} = 1.47625 ", \
+     1.23754156551565*x title " {/Times-Italic A}{/Symbol \242} = 1.23754 ", \
+     0.941308481751331*x title " {/Times-Italic A}{/Symbol \242} = 0.94131 "

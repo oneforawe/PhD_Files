@@ -1,0 +1,19 @@
+#filename: plot_vlt_ThermStates_Dexp100_beta_Cc1.03_K0cTest.gnu
+#This file is to look and see if my hand-picked value for K0c really works.  (Adding/subtracting 1 from the last digit to see that K changes from diverging to plummeting to zero.)
+reset
+set terminal postscript color eps enhanced
+set output 'plot_vlt_ThermStates_Dexp100_beta_Cc1.03_K0cTest.ps'
+
+set title "^4He Coupling constant {/Times-Italic K} vs length scale {/Times-Italic l} \n ({/Times-Italic T}_c = 2.1768 K, {/Times-Italic a_0} = 0.248 nm, {/Times-Italic K}_{0c} = 0.30914699533678829)"
+
+set ylabel "{/Times-Italic K} (unitless)"
+set xlabel "{/Times-Italic l} (unitless)"
+#set logscale x
+#set xrange [1:1e-7]
+#set xrange [1e-2:1e-8]
+#set yrange [0:300]
+set grid
+set key inside left top box spacing 1.2 title "Calculated from \n {/CM-Typewriter vlt\\_ThermStates.c}"
+#set rmargin 2
+
+plot 'vlt_ThermStates_Dexp100_beta_Cc1.03_K0cTest.dat' using 3:5 with linespoints title " {/Times-Italic T} = {/Times-Italic T}_c "

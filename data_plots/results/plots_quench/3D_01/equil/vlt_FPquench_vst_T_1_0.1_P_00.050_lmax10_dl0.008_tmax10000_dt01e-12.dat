@@ -1,0 +1,43 @@
+# Filename: vlt_FPquench_vst_T_1_0.1_P_00.050_lmax10_dl0.008_tmax10000_dt01e-12.dat
+# Source: vlt_FPquench.c
+# Source version: 1 (2011 Jan 18)
+# Parameter values: iTfrac=1, qTfrac=0.1, P=0.05 (Cc=1.10502, K0c=0.295611), lmax=10, lsteps=1250, (dl=0.008), lpts=1251, ldatamax=250, tmax=10000, dt0=1e-12, a0=1, a06=1, THETA=0.6, CONST=1
+# time-step	t	T/Tc	1-T/Tc	l	K	K/K0	Kr/K0	G	vldens
+0	0	1	0	10	26.9269	91.0888	0.00413543	3.52769e-30	0.0862206
+1	1e-12	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+2	2e-12	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+3	3e-12	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+4	4e-12	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+6	6e-12	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+8	8e-12	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+10	1e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+12	1.2e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+14	1.4e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+17	1.7e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+20	2e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+24	2.4e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+28	2.8e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+32	3.2e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+37	3.7e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+43	4.3e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+49	4.9e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+56	5.6e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+64	6.4e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+73	7.3e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+83	8.3e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+94	9.4e-11	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+107	1.07e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+121	1.21e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+137	1.37e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+155	1.55e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+175	1.75e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+197	1.97e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+222	2.22e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+250	2.5e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+282	2.82e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+318	3.18e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+357	3.57e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+402	4.02e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+452	4.52e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+508	5.08e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan
+572	5.72e-10	0.1	0.9	10	-nan	-nan	-nan	-nan	-nan

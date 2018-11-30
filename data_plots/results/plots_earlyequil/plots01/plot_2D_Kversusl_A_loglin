@@ -1,0 +1,19 @@
+#filename: plot_2D_Kversusl_A_loglin
+reset
+set terminal png
+set output "plot_2D_Kversusl_A_loglin.png"
+set title "Coupling constant (K) vs Length scale (l) in 2D \n at various temperatures"
+set ylabel "K"
+set xlabel "l"
+set logscale y
+#set yrange [.63:.76]
+set grid
+#set key right top box
+set key left bottom box title "Let tv = 1-T/Tc"
+plot "2DKT_A_i00.dat" using 3:5 with linespoints title " tv = e-8", \
+     "2DKT_A_i10.dat" using 3:5 with linespoints title " tv = e-7", \
+     "2DKT_A_i20.dat" using 3:5 with linespoints title " tv = e-6", \
+     "2DKT_A_i30.dat" using 3:5 with linespoints title " tv = e-5", \
+     "2DKT_A_i40.dat" using 3:5 with linespoints title " tv = e-4", \
+     "2DKT_A_i50.dat" using 3:5 with linespoints title " tv = e-3", \
+     "2DKT_A_i60.dat" using 3:5 with linespoints title " tv = e-2"

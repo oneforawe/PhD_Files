@@ -1,0 +1,61 @@
+#filename: plot_3Dvlt_macro_Tv_Op12_lmax10_dl1e-05_RhosoRhoVsTv.gnu
+reset
+set terminal postscript color eps enhanced
+set output 'plot_3Dvlt_macro_Tv_Op12_lmax10_dl1e-05_RhosoRhoVsTv.ps'
+set size 1.3,1.1
+
+set title "^4He Superfluid Fraction {/Symbol-Oblique r}_s / {/Symbol-Oblique r} \n vs Exponentiated Temperature Variable {/Symbol-Oblique t}^{/Symbol-Oblique n}"
+
+set ylabel "{/Symbol-Oblique r}_s / {/Symbol-Oblique r} (unitless)"
+set xlabel "{/Symbol-Oblique t} = [{/Times-Italic 1 - T / T}_{/Symbol-Oblique l}{/Times-Italic (P)}] (unitless)"
+#set xrange [0:1e-5]
+set xrange [0:5e-8]
+#set xrange [0:4e-8]
+#set yrange [0:3e-5]
+#set yrange [0:0.9]
+set grid
+set key outside right box width -13 height 0.5 spacing 1.2 title " Calculated from {/CM-Typewriter 3Dvlt\\_macro.c} \n Fit: {/Symbol-Oblique r}_s / {/Symbol-Oblique r} = {/Times-Italic A}{/Symbol \242}{/Symbol-Oblique t}^{/Symbol-Oblique n}"
+set rmargin 40
+
+plot '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.20_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.20 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.25_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.25 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.30_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.30 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.35_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.35 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.40_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.40 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.45_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.45 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.50_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.50 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.55_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.55 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.60_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.60 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.65_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.65 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.70_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.70 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.75_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.75 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.80_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.80 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.85_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.85 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.90_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.90 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc0.95_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.95 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc1.00_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 0.00 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc1.05_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 1.05 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc1.10_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 1.10 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc1.15_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 1.15 ", \
+     '3Dvlt_macro_Tv_Op42_Kth4.14677_Cc1.20_lmax10_dl1e-05.dat' using 2:8 with points title " {/Times-Italic C}_c = 1.20 ", \
+     2.54748513421246*x**0.671687229602566 title " 2.54749*{/Symbol-Oblique t}^{0.671687} ", \
+     2.45678567546662*x**0.671684942208145 title " 2.45679*{/Symbol-Oblique t}^{0.671685} ", \
+     2.41843383975098*x**0.671687592834026 title " 2.41843*{/Symbol-Oblique t}^{0.671688} ", \
+     2.40853171822087*x**0.671684918596759 title " 2.40853*{/Symbol-Oblique t}^{0.671685} ", \
+     2.39862438659941*x**0.671684944026384 title " 2.39862*{/Symbol-Oblique t}^{0.671685} ", \
+     2.38863273954357*x**0.671685094285988 title " 2.38863*{/Symbol-Oblique t}^{0.671685} ", \
+     2.37862558683358*x**0.671687598201897 title " 2.37863*{/Symbol-Oblique t}^{0.671688} ", \
+     2.36842644423992*x**0.671686867692743 title " 2.36843*{/Symbol-Oblique t}^{0.671687} ", \
+     2.3581557161222*x**0.671686860006038 title " 2.35816*{/Symbol-Oblique t}^{0.671687} ", \
+     2.34779956532926*x**0.671687124989894 title " 2.34780*{/Symbol-Oblique t}^{0.671687} ", \
+     2.33736798757756*x**0.671688087118895 title " 2.33737*{/Symbol-Oblique t}^{0.671688} ", \
+     2.32676055987661*x**0.671686453446591 title " 2.32676*{/Symbol-Oblique t}^{0.671686} ", \
+     2.24996473305563*x**0.671686532756358 title " 2.24996*{/Symbol-Oblique t}^{0.671687} ", \
+     2.1304777348989*x**0.671687091846755 title " 2.13048*{/Symbol-Oblique t}^{0.671687} ", \
+     1.99723544537609*x**0.671686407351536 title " 1.99724*{/Symbol-Oblique t}^{0.671686} ", \
+     1.84698240071057*x**0.671683747863081 title " 1.84698*{/Symbol-Oblique t}^{0.671684} ", \
+     1.76412802862914*x**0.671681606626879 title " 1.76413*{/Symbol-Oblique t}^{0.671682} ", \
+     1.67521344625374*x**0.671680606003616 title " 1.67521*{/Symbol-Oblique t}^{0.671681} ", \
+     1.47525672944025*x**0.671678410467391 title " 1.47526*{/Symbol-Oblique t}^{0.671678} ", \
+     1.23651403136313*x**0.671676494488984 title " 1.23651*{/Symbol-Oblique t}^{0.671676} ", \
+     0.940449907525239*x**0.671680644172675 title " 0.94045*{/Symbol-Oblique t}^{0.671681} "

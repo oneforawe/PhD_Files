@@ -1,0 +1,35 @@
+from 3Dvlt_macro_cp_extra.c
+
+			// using normal settings (in 3Dvlt_K0cFind.c - Output27, 3Dvlt_macro_noifthen.c,
+			// and fits from plots_macro/3D_11_Normal_NoIfThen) //
+			case 1:		P =  0.050;	Cc = 1.10483229772024;	K0c = 0.295643892705827;	break;
+			case 2:		P =  1.646;	Cc = 1.05802360690523;	K0c = 0.3039017891501;		break;
+			case 3:		P =  7.328;	Cc = 0.905783785948535;	K0c = 0.335651305449222;	break;
+			case 4:		P = 15.031;	Cc = 0.730585406559371;	K0c = 0.385673454596625;	break;
+			case 5:		P = 18.180;	Cc = 0.667741857245225;	K0c = 0.408977828480417;	break;
+			case 6:		P = 22.533;	Cc = 0.588205298607552;	K0c = 0.444511433704054;	break;
+			case 7:		P = 25.868;	Cc = 0.532568913867742;	K0c = 0.474735257233818;	break;
+
+			/* using normal settings (in 3Dvlt_K0cFind.c - Output28, 3Dvlt_macro_noifthen.c,
+			// and fits from plots_macro/3D_11_Normal_NoIfThen) //
+			case 1:		P =  0.0*1.01325;	Cc = 1.10632942839817;	K0c = 0.29538951067061;		break;
+			case 2:		P =  1.0*1.01325;	Cc = 1.07635638256762;	K0c = 0.300595480774154;	break;
+			case 3:		P =  5.0*1.01325;	Cc = 0.963811435171926;	K0c = 0.322550071407628;	break;
+			case 4:		P = 10.0*1.01325;	Cc = 0.838186490043836;	K0c = 0.352833451461462;	break;
+			case 5:		P = 15.0*1.01325;	Cc = 0.727118555504325;	K0c = 0.386868708988648;	break;
+			case 6:		P = 20.0*1.01325;	Cc = 0.628625944372066;	K0c = 0.425484419386825;	break;
+			case 7:		P = 24.0*1.01325;	Cc = 0.557881910249367;	K0c = 0.460337048991327;	break;*/
+
+			/* using normal settings (in 3Dvlt_K0cFind.c - Output29, 3Dvlt_macro_noifthen.c,
+			// and fits from plots_macro/3D_11_Normal_NoIfThen) //
+			case 1:		P =  0.0*1.01325;	Cc = 1.10632942839817;	K0c = 0.29538951067061;		break;
+			case 2:		P =  2.5*1.01325;	Cc = 1.03280678021075;	K0c = 0.308610836254864;	break;
+			case 3:		P =  5.0*1.01325;	Cc = 0.963811435171926;	K0c = 0.322550071407628;	break;
+			case 4:		P =  7.5*1.01325;	Cc = 0.899037373713034;	K0c = 0.337267195326344;	break;
+			case 5:		P = 10.0*1.01325;	Cc = 0.838186490043836;	K0c = 0.352833451461462;	break;
+			case 6:		P = 12.5*1.01325;	Cc = 0.780969118936599;	K0c = 0.369334358088313;	break;
+			case 7:		P = 15.0*1.01325;	Cc = 0.727118555504325;	K0c = 0.386868708988648;	break;
+			case 8:		P = 17.5*1.01325;	Cc = 0.676402747916216;	K0c = 0.405545939114024;	break;
+			case 9:		P = 20.0*1.01325;	Cc = 0.628625944372066;	K0c = 0.425484419386825;	break;
+			case 10:	P = 22.5*1.01325;	Cc = 0.583620041108912;	K0c = 0.446813016248088;	break;
+			case 11:	P = 25.0*1.01325;	Cc = 0.541229882352637;	K0c = 0.469677478874956;	break;*/

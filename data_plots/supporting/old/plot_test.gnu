@@ -1,0 +1,13 @@
+#filename: plot_test.gnu
+FIT_LIMIT = 1e-5
+f(x,y) = a*x**2+b*x*y-c*y**3
+fit f(x,y) "test.dat" using 1:2:3:(3) via "test.par"
+reset
+set terminal png
+set output "plot_test.png"
+set title "stuff vs stuff"
+set grid
+set key left bottom box
+plot "test.dat" using 1:3 title " data ", \
+     "test.dat" using 1:(f($1,$2)+60) with linespoints title " fit "
+#plot f(x,y) versus x using 1:2 in "test.dat" as x:y

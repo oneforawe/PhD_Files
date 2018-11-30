@@ -1,0 +1,8 @@
+# Filename: 3Dvlt_quench_vst_T_0.7_0.7_P_00.050_lmax10_dl0.002_tmax100_dt2e-06_BC1.dat
+# Source: 3Dvlt_quench.c
+# Source version: 9 (2011 Jun 23 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063, B=41.3417022403997549418, THETA=0.6
+# Parameter values: iTfrac=0.7, qTfrac=0.7, P=0.05 (Cc=1.10501, K0c=0.295614), lmax=10, lsteps=5000, (dl=0.002), lpts=5001, ldatamax=100, t0=1, tmax=100, dt=2e-06, (dtfrac=1), a0=1, a02=1, a03=1, a04=1, a06=1, Lconst=1, NDflowTOL=1e-06, fp1=-1.5, fp2=1.5, fp3=-4.5, fp4=-1.5, li=5.5
+# Option values: BC=1, RKv=RK3v1
+# time-step	t	T/Tc	1-T/Tc	l	K	K/K0	Kr/K0	G	loopdens	linedens
+0	0	0.7	0.3	10	8019.74	18990.4	0.862161	0	0.0311038	0.00926875

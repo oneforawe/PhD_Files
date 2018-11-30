@@ -1,0 +1,19 @@
+#filename: plot_3D_KrK0versusl_B_loglog
+reset
+set terminal png
+set output "plot_3D_KrK0versusl_B_loglog.png"
+set title "Renormalized coupling constant fraction (Kr/K0) vs Length scale (l) in 3D \n at various temperatures"
+set ylabel "Kr/K0"
+set xlabel "l"
+set logscale xy
+set yrange [1e-5:1]
+set grid
+set key left bottom box
+plot "ring1_B_i00.dat" using 3:9 with linespoints title " tv = e-0.1 ", \
+     "ring1_B_i09.dat" using 3:9 with linespoints title " tv = e-1   ", \
+     "ring1_B_i19.dat" using 3:9 with linespoints title " tv = e-2   ", \
+     "ring1_B_i29.dat" using 3:9 with linespoints title " tv = e-3   ", \
+     "ring1_B_i30.dat" using 3:9 with linespoints title " tv = -e-2.9", \
+     "ring1_B_i39.dat" using 3:9 with linespoints title " tv = -e-2  ", \
+     "ring1_B_i49.dat" using 3:9 with linespoints title " tv = -e-1  ", \
+     "ring1_B_i59.dat" using 3:9 with linespoints title " tv = -e-0  "

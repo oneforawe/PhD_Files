@@ -1,0 +1,44 @@
+#filename: fit_3Dvlt_macro_Tv_lmax100_dl0.001_Op6_RhosoRhoVsTv.gnu
+f01(x) = A01*x**nu01
+f02(x) = A02*x**nu02
+f03(x) = A03*x**nu03
+f04(x) = A04*x**nu04
+f05(x) = A05*x**nu05
+f06(x) = A06*x**nu06
+f07(x) = A07*x**nu07
+f08(x) = A08*x**nu08
+f09(x) = A09*x**nu09
+f10(x) = A10*x**nu10
+fit [0:1e-5] f01(x) '3Dvlt_macro_Tv_Cc0.55_lmax100_dl0.001_Op6.dat' using 2:6 via A01,nu01
+fit [0:1e-5] f02(x) '3Dvlt_macro_Tv_Cc0.50_lmax100_dl0.001_Op6.dat' using 2:6 via A02,nu02
+fit [0:1e-5] f03(x) '3Dvlt_macro_Tv_Cc0.45_lmax100_dl0.001_Op6.dat' using 2:6 via A03,nu03
+fit [0:1e-5] f04(x) '3Dvlt_macro_Tv_Cc0.40_lmax100_dl0.001_Op6.dat' using 2:6 via A04,nu04
+fit [0:1e-5] f05(x) '3Dvlt_macro_Tv_Cc0.35_lmax100_dl0.001_Op6.dat' using 2:6 via A05,nu05
+fit [0:1e-5] f06(x) '3Dvlt_macro_Tv_Cc0.30_lmax100_dl0.001_Op6.dat' using 2:6 via A06,nu06
+fit [0:1e-5] f07(x) '3Dvlt_macro_Tv_Cc0.25_lmax100_dl0.001_Op6.dat' using 2:6 via A07,nu07
+fit [0:1e-5] f08(x) '3Dvlt_macro_Tv_Cc0.20_lmax100_dl0.001_Op6.dat' using 2:6 via A08,nu08
+fit [0:1e-5] f09(x) '3Dvlt_macro_Tv_Cc0.15_lmax100_dl0.001_Op6.dat' using 2:6 via A09,nu09
+fit [0:1e-5] f10(x) '3Dvlt_macro_Tv_Cc0.10_lmax100_dl0.001_Op6.dat' using 2:6 via A10,nu10
+update 'fit_3Dvlt_macro_Tv_lmax100_dl0.001_Op6_RhosoRhoVsTv.par' 'fit_3Dvlt_macro_Tv_lmax100_dl0.001_Op6_RhosoRhoVsTv.par'
+set print 'fit_3Dvlt_macro_Tv_lmax100_dl0.001_Op6_RhosoRhoVsTv.par'
+print A01,"\t",nu01,"\n", \
+      A02,"\t",nu02,"\n", \
+      A03,"\t",nu03,"\n", \
+      A04,"\t",nu04,"\n", \
+      A05,"\t",nu05,"\n", \
+      A06,"\t",nu06,"\n", \
+      A07,"\t",nu07,"\n", \
+      A08,"\t",nu08,"\n", \
+      A09,"\t",nu09,"\n", \
+      A10,"\t",nu10,"\n\n", \
+      '     ',A01,'*x**',nu01,' title " ',sprintf("%0.5f",A01),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu01),'} ", \',"\n", \
+      '     ',A02,'*x**',nu02,' title " ',sprintf("%0.5f",A02),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu02),'} ", \',"\n", \
+      '     ',A03,'*x**',nu03,' title " ',sprintf("%0.5f",A03),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu03),'} ", \',"\n", \
+      '     ',A04,'*x**',nu04,' title " ',sprintf("%0.5f",A04),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu04),'} ", \',"\n", \
+      '     ',A05,'*x**',nu05,' title " ',sprintf("%0.5f",A05),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu05),'} ", \',"\n", \
+      '     ',A06,'*x**',nu06,' title " ',sprintf("%0.5f",A06),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu06),'} ", \',"\n", \
+      '     ',A07,'*x**',nu07,' title " ',sprintf("%0.5f",A07),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu07),'} ", \',"\n", \
+      '     ',A08,'*x**',nu08,' title " ',sprintf("%0.5f",A08),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu08),'} ", \',"\n", \
+      '     ',A09,'*x**',nu09,' title " ',sprintf("%0.5f",A09),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu09),'} ", \',"\n", \
+      '     ',A10,'*x**',nu10,' title " ',sprintf("%0.5f",A10),'*{/Symbol-Oblique t}^{',sprintf("%0.6f",nu10),'} "'
+unset print

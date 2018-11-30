@@ -1,0 +1,7 @@
+# Filename: 2DKT_FPquench_inject_SteadyState_vst_T_0.999_0.95_lmax10_dl0.008_tmax10000_dt01e-05.dat
+# Source: 2DKT_FPquench.c
+# Source version: 1 (2011 May 11 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063, B=124.025106721199264825
+# Parameter values: iTfrac=0.999, qTfrac=0.95, lmax=10, lsteps=1250, (dl=0.008), lpts=1251, ldatamax=250, tmax=10000, dt0=1e-05, a0=1, a04=1, K0c=0.747853
+# time-step	t	T/Tc	1-T/Tc	l	K	K/K0	G	vpdens
+0	0	0.999	0.001	10	-nan	-nan	-nan	-nan

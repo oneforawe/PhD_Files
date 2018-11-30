@@ -1,0 +1,17 @@
+#filename: plot_3D_Kversusl_A_loglog
+reset
+set terminal png
+set output "plot_3D_Kversusl_A_loglog.png"
+set title "Coupling constant (K) vs Length scale (l) in 3D \n at various temperatures"
+set ylabel "K"
+set xlabel "l"
+set logscale xy
+set grid
+set key left top box
+plot "ring1_A_i00.dat" using 3:5 with linespoints title " tv = e-8", \
+     "ring1_A_i10.dat" using 3:5 with linespoints title " tv = e-7", \
+     "ring1_A_i20.dat" using 3:5 with linespoints title " tv = e-6", \
+     "ring1_A_i30.dat" using 3:5 with linespoints title " tv = e-5", \
+     "ring1_A_i40.dat" using 3:5 with linespoints title " tv = e-4", \
+     "ring1_A_i50.dat" using 3:5 with linespoints title " tv = e-3", \
+     "ring1_A_i60.dat" using 3:5 with linespoints title " tv = e-2"

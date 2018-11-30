@@ -1,0 +1,167 @@
+
+
+*******************************************************************************
+Thu Mar 17 14:46:18 2011
+
+
+FIT:    data read from 'vlt_ThermStates_lmax100_A_Cc1.20.dat' using 2:8
+	x range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f01(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 22.1012           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A01             = 1
+nu01            = 1
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Mar 17 14:47:11 2011
+
+
+FIT:    data read from 'vlt_ThermStates_lmax100_A_Cc1.20.dat' using 2:8
+	x range restricted to [0.00000 : 0.0100000]
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f01(x)
+fitted parameters initialized with current variable values
+
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Mar 17 14:49:10 2011
+
+
+FIT:    data read from 'vlt_ThermStates_lmax100_A_Cc1.20.dat' using 2:8
+	x range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f01(x)
+fitted parameters initialized with current variable values
+
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Mar 17 14:51:59 2011
+
+
+FIT:    data read from 'vlt_ThermStates_lmax100_A_Cc1.10.dat' using 2:8
+	x range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f02(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 20.9472           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A02             = 1
+nu02            = 1
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Mar 17 14:53:16 2011
+
+
+FIT:    data read from 'vlt_ThermStates_lmax100_A_Cc1.06.dat' using 2:8
+	x range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f03(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 20.4376           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A03             = 1
+nu03            = 1
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Mar 17 14:54:23 2011
+
+
+FIT:    data read from 'vlt_ThermStates_lmax100_A_Cc0.55.dat' using 2:8
+	x range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f17(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10.8077           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A17             = 1
+nu17            = 1
+BREAK:          Undefined value during function evaluation
+
+
+
+*******************************************************************************
+Thu Mar 17 14:54:54 2011
+
+
+FIT:    data read from 'vlt_ThermStates_lmax100_A_Cc0.20.dat' using 2:8
+	x range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f21(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.83255           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A21             = 1
+nu21            = 1
+BREAK:          Undefined value during function evaluation
+

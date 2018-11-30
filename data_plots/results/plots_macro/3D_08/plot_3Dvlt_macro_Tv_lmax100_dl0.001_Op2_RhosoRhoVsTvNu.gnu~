@@ -1,0 +1,67 @@
+#filename: plot_3Dvlt_macro_Tv_lmax100_dl0.001_Op2_RhosoRhoVsTvNu.gnu
+reset
+set terminal postscript color eps enhanced
+set output 'plot_3Dvlt_macro_Tv_lmax100_dl0.001_Op2_RhosoRhoVsTvNu.ps'
+set size 1.0,1.1
+
+set title "^4He Superfluid Fraction {/Symbol-Oblique r}_s / {/Symbol-Oblique r} \n vs Exponentiated Temperature Variable {/Symbol-Oblique t}^{/Symbol-Oblique n}"
+
+set ylabel "{/Symbol-Oblique r}_s / {/Symbol-Oblique r} (unitless)"
+set xlabel "{/Symbol-Oblique t}^{/Symbol-Oblique n} = [{/Times-Italic 1 - T / T}_{/Symbol-Oblique l}{/Times-Italic (P)}]^{/Symbol-Oblique n} (unitless)"
+#set xrange [0:3e-5]
+#set yrange [0:1e-4]
+set xrange [0:(3.6e-8)**0.671696337558]
+set yrange [0:3e-5]
+#set xrange [0:4.38e-4]
+#set yrange [0:1e-3]
+#set xrange [0:4e-5]
+#set xrange [0:1e-5]
+#set yrange [0:0.1]
+set grid
+set key outside right box width -16 height 0.5 spacing 1.2 title " Calculated from {/CM-Typewriter 3Dvlt\\_macro.c} \n Fit: {/Symbol-Oblique r}_s / {/Symbol-Oblique r} = {/Times-Italic A}{/Symbol \242}{/Symbol-Oblique t}^{/Symbol-Oblique n} \n {/Symbol-Oblique n} = 0.671696337558 "
+set rmargin 35
+
+plot '3Dvlt_macro_Tv_Cc1.20_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.20 ", \
+     '3Dvlt_macro_Tv_Cc1.10_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.10 ", \
+     '3Dvlt_macro_Tv_Cc1.06_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.06 ", \
+     '3Dvlt_macro_Tv_Cc1.05_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.05 ", \
+     '3Dvlt_macro_Tv_Cc1.04_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.04 ", \
+     '3Dvlt_macro_Tv_Cc1.03_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.03 ", \
+     '3Dvlt_macro_Tv_Cc1.02_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.02 ", \
+     '3Dvlt_macro_Tv_Cc1.01_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.01 ", \
+     '3Dvlt_macro_Tv_Cc1.00_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 1.00 ", \
+     '3Dvlt_macro_Tv_Cc0.99_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.99 ", \
+     '3Dvlt_macro_Tv_Cc0.98_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.98 ", \
+     '3Dvlt_macro_Tv_Cc0.97_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.97 ", \
+     '3Dvlt_macro_Tv_Cc0.90_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.90 ", \
+     '3Dvlt_macro_Tv_Cc0.80_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.80 ", \
+     '3Dvlt_macro_Tv_Cc0.70_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.70 ", \
+     '3Dvlt_macro_Tv_Cc0.60_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.60 ", \
+     '3Dvlt_macro_Tv_Cc0.55_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.55 ", \
+     '3Dvlt_macro_Tv_Cc0.50_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.50 ", \
+     '3Dvlt_macro_Tv_Cc0.40_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.40 ", \
+     '3Dvlt_macro_Tv_Cc0.30_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.30 ", \
+     '3Dvlt_macro_Tv_Cc0.20_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.20 ", \
+     '3Dvlt_macro_Tv_Cc0.10_lmax100_dl0.001_Op2.dat' using ($2**0.671696337558):6 with points title " {/Times-Italic C}_c = 0.10 ", \
+     3.9468663117224*x title " {/Times-Italic A}{/Symbol \242} = 3.94687 ", \
+     3.84360804115962*x title " {/Times-Italic A}{/Symbol \242} = 3.84361 ", \
+     3.79994597991624*x title " {/Times-Italic A}{/Symbol \242} = 3.79995 ", \
+     3.78879967959926*x title " {/Times-Italic A}{/Symbol \242} = 3.78880 ", \
+     3.77755753964994*x title " {/Times-Italic A}{/Symbol \242} = 3.77756 ", \
+     3.76622474380348*x title " {/Times-Italic A}{/Symbol \242} = 3.76622 ", \
+     3.75479394558206*x title " {/Times-Italic A}{/Symbol \242} = 3.75479 ", \
+     3.74326050214463*x title " {/Times-Italic A}{/Symbol \242} = 3.74326 ", \
+     3.73162467950983*x title " {/Times-Italic A}{/Symbol \242} = 3.73162 ", \
+     3.71988678707554*x title " {/Times-Italic A}{/Symbol \242} = 3.71989 ", \
+     3.70804249986577*x title " {/Times-Italic A}{/Symbol \242} = 3.70804 ", \
+     3.69609447351314*x title " {/Times-Italic A}{/Symbol \242} = 3.69609 ", \
+     3.60927144039693*x title " {/Times-Italic A}{/Symbol \242} = 3.60927 ", \
+     3.47441134122628*x title " {/Times-Italic A}{/Symbol \242} = 3.47441 ", \
+     3.32413763062673*x title " {/Times-Italic A}{/Symbol \242} = 3.32414 ", \
+     3.15443173621648*x title " {/Times-Italic A}{/Symbol \242} = 3.15443 ", \
+     3.06056512689866*x title " {/Times-Italic A}{/Symbol \242} = 3.06057 ", \
+     2.95945236981966*x title " {/Times-Italic A}{/Symbol \242} = 2.95945 ", \
+     2.73023084601631*x title " {/Times-Italic A}{/Symbol \242} = 2.73023 ", \
+     2.45182890263842*x title " {/Times-Italic A}{/Symbol \242} = 2.45183 ", \
+     2.09612335808302*x title " {/Times-Italic A}{/Symbol \242} = 2.09612 ", \
+     1.59681692914699*x title " {/Times-Italic A}{/Symbol \242} = 1.59682 "

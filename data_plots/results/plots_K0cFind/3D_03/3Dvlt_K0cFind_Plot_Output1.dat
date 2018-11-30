@@ -1,0 +1,5 @@
+# Source: 3Dvlt_K0cFind_Plot.c
+# Source version: 1 (2011 Aug 22 - ...)
+
+case 1:		Cc = 1.01;	K0c = 0.662865264792018;	break;
+case 2:		Cc = 1.01;	K0c = 0.662865264792018;	break;

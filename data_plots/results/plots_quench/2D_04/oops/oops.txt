@@ -1,0 +1,24 @@
+I used
+
+
+
+// equilibrium (K,G) recursion relations //
+void EqRecRel(double x, double z[2], double dzdx[2], unsigned n){
+	dzdx[0] = -B*z[1]*z[1]*z[0]*z[0];
+	dzdx[1] = -2.0*PI*z[0]*z[1];
+}
+
+
+
+
+instead of
+
+
+
+
+// equilibrium (K,G) recursion relations //
+void EqRecRel(double x, double z[2], double dzdx[2], unsigned n){
+	dzdx[0] = -B*a04*exp(4.0*x)*z[1]*z[0]*z[0];
+	dzdx[1] = -2.0*PI*z[0]*z[1];
+}
+

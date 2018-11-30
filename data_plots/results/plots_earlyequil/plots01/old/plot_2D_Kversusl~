@@ -1,0 +1,9 @@
+set terminal png
+set output "plot_2D_Kversusl.png"
+set title "Coupling constant (K) vs Length scale (l) \n at various temperatures"
+set ylabel "K"
+set xlabel "l"
+set logscale y
+set grid
+set key left top box
+plot "2D_Kversusl3.dat" using 2:3 with linespoints title "K at tv = e-5"

@@ -1,0 +1,11 @@
+set terminal png
+set output "plot01.png"
+set title "Superfluid fraction (K_r/K_0) vs (1-T/T_c)"
+set xlabel "1-T/T_c"
+set ylabel "K_r/K_0"
+set logscale xy
+set grid
+set key left box
+set xrange [0.000000001:0.1]
+set yrange [0.000001:1]
+plot "data00.dat","data01.dat","data02.dat"

@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Files}{2}
+\contentsline {section}{\numberline {2}Data Fit}{3}
+\contentsline {section}{\numberline {3}Plots before Correction of K0cFind Program}{4}
+\contentsline {section}{\numberline {4}Adjusted Theory}{7}
+\contentsline {section}{\numberline {5}Initial Theory}{8}
+\contentsline {subsection}{\numberline {5.1}2D Program Plots}{8}
+\contentsline {subsubsection}{\numberline {5.1.1}Major Plots}{8}
+\contentsline {subsubsection}{\numberline {5.1.2}Minor Plots}{9}
+\contentsline {subsection}{\numberline {5.2}3D Program Plots}{10}
+\contentsline {subsubsection}{\numberline {5.2.1}Major Plots}{10}
+\contentsline {subsubsection}{\numberline {5.2.2}Minor Plots}{11}

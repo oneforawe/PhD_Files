@@ -1,0 +1,72 @@
+#filename: thesis_plot_2Dvpt_macro_T_dl0.001_Op7_SigsVsT.gnu
+reset
+set terminal postscript color eps enhanced
+set output 'thesis_plot_2Dvpt_macro_T_dl0.001_Op7_SigsVsT.ps'
+set size 0.85,0.85
+
+set title "^4He Film Superfluid Density {/Symbol-Oblique s}_s vs Temperature {/Times-Italic T}"
+
+set ylabel "{/Symbol-Oblique s}_s (g /cm^2)"
+set xlabel "{/Times-Italic T} (K)"
+set xrange [0:2]
+set yrange [0:1.2]
+#set logscale y
+#set grid
+#set key inside left bottom box width -2 height 0.5 spacing 1.2
+#set key at graph 0.325,0.42 box width -2 height 0.5 spacing 1.2 title " ^{}Vortex Pair Theory "
+#set key at graph 0.325,0.53 box width -2 height 0.5 spacing 1.2 title " ^{}Vortex Pair Theory "
+#set rmargin 35
+
+set pointsize 0.55
+
+# macroscopic (l infinity) critical (c, T=Tkt) superfluid density (sigs) => sigs c l infinity
+PI = 3.1415926535897932384626
+sigsclinfinity = (2.0/PI)/0.747852
+# that's Kstar/K0c
+
+slope1 = (2.0/3.0)
+slope2 = (2.0/3.0)*(3.49/4.10)
+factor1 = 1.2
+factor2 = 1.5
+
+## Vertical Lines  and  Horizontal Lines ##
+set arrow from 1.00,0.61         to 1.00,1.00*slope1  ls 0 lc rgb "red" nohead
+set arrow from 0.87,1.00*slope1  to 1.00,1.00*slope1  ls 0 lc rgb "red" nohead
+
+set arrow from factor1*1.00,0.61*factor1         to factor1*1.00,1.00*slope1*factor1  ls 0 lc rgb "red" nohead
+set arrow from factor1*0.87,1.00*slope1*factor1  to factor1*1.00,1.00*slope1*factor1  ls 0 lc rgb "red" nohead
+
+set arrow from factor2*1.00,0.61*factor2         to factor2*1.00,1.00*slope1*factor2  ls 0 lc rgb "red" nohead
+set arrow from factor2*0.87,1.00*slope1*factor2  to factor2*1.00,1.00*slope1*factor2  ls 0 lc rgb "red" nohead
+
+# Could show these if you want
+#set arrow from 0.00,sigsclinfinity*slope1          to         1.00,sigsclinfinity*slope1          ls 0 lc rgb "black" nohead
+#set arrow from 0.00,sigsclinfinity*slope1*factor2  to factor2*1.00,sigsclinfinity*slope1*factor2  ls 0 lc rgb "black" nohead
+
+
+set xtics ("{/Times-Italic T}_{KT}" 1.0, "{/Times-Italic T}_{KT}{/Symbol \242}" factor2)
+set ytics ("{/Symbol-Oblique s}" slope1, "{/Symbol-Oblique s} {/Symbol \242}" slope1*factor2)
+
+
+plot '2Dvpt_macro_T_lmax83_dl0.001_Op7.dat'  using            1:($5*slope1)         with lines lw 3 notitle, \
+     '2Dvpt_macro_T_lmax83_dl0.001_Op7.dat'  using (factor1*$1):($5*slope1*factor1) with lines lw 3 notitle, \
+     '2Dvpt_macro_T_lmax83_dl0.001_Op7.dat'  using (factor2*$1):($5*slope1*factor2) with lines lw 3 notitle, \
+     slope1*x ls 3 lw 1 lc rgb "red"   notitle, \
+     slope2*x ls 2 lw 2 lc rgb "black" notitle, \
+     "<echo 1.0 0.567" with points ls 7 lc rgb "black" notitle, \
+     "<echo 1.2 0.681" with points ls 7 lc rgb "black" notitle, \
+     "<echo 1.5 0.851" with points ls 7 lc rgb "black" notitle, \
+     "<echo 1.0 0.667" with points ls 7 lc rgb "red" notitle, \
+     "<echo 1.2 0.800" with points ls 7 lc rgb "red" notitle, \
+     "<echo 1.5 1.000" with points ls 7 lc rgb "red" notitle
+
+
+#     "<echo         1.0 slope2"         with points ls 7 lc rgb "black" notitle, \
+#     "<echo factor1*1.0 slope2*factor1" with points ls 7 lc rgb "black" notitle, \
+#     "<echo factor2*1.0 slope2*factor2" with points ls 7 lc rgb "black" notitle, \
+#     "<echo         1.0 slope1"         with points ls 7 lc rgb "red" notitle, \
+#     "<echo factor1*1.0 slope1*factor1" with points ls 7 lc rgb "red" notitle, \
+#     "<echo factor2*1.0 slope1*factor2" with points ls 7 lc rgb "red" notitle, \
+
+
+

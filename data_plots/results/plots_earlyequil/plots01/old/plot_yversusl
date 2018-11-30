@@ -1,0 +1,17 @@
+#filename: plot_3D_yversusl_A_loglog
+reset
+set terminal png
+set output "plot_yversusl.png"
+set title "Fugacity (y) vs Length scale (l) in 3D \n at various temperatures"
+set ylabel "y"
+set xlabel "l"
+set logscale xy
+set grid
+set key left bottom box title "Let tv = 1-T/Tc"
+plot "yversusl0.dat" with linespoints title " tv = e-8", \
+     "yversusl1.dat" with linespoints title " tv = e-7", \
+     "yversusl2.dat" with linespoints title " tv = e-6", \
+     "yversusl3.dat" with linespoints title " tv = e-5", \
+     "yversusl4.dat" with linespoints title " tv = e-4", \
+     "yversusl5.dat" with linespoints title " tv = e-3", \
+     "yversusl6.dat" with linespoints title " tv = e-2"

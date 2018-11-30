@@ -1,0 +1,14 @@
+#filename: plot_3D_KrversusT_B_linlin
+reset
+set terminal png
+set output "plot_3D_KrversusT_B_linlin.png"
+set title "Renormalized coupling constant (Kr) vs Temperature (T/Tc) in 3D"
+set ylabel "Kr"
+set xlabel "T/Tc"
+set grid
+set key left bottom box
+plot "ring1_B_Dexp000.dat" using 1:8 with linespoints title " l_max = 0  ", \
+     "ring1_B_Dexp001.dat" using 1:8 with linespoints title " l_max = 1  ", \
+     "ring1_B_Dexp002.dat" using 1:8 with linespoints title " l_max = 2  ", \
+     "ring1_B_Dexp003.dat" using 1:8 with linespoints title " l_max = 3  ", \
+     "ring1_B_Dexp100.dat" using 1:8 with linespoints title " l_max = 100"

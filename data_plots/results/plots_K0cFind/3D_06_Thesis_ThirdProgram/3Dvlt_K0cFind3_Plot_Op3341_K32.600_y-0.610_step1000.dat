@@ -1,0 +1,30 @@
+# Filename: 3Dvlt_K0cFind3_Plot_Op3341_K32.600_y-0.610_step1000.dat
+# Source: 3Dvlt_K0cFind3_Plot.c
+# Source version: 1 (2012 Jun 07 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063
+# Parameter values: OpA=3, OpAa=3, OpB=4, OpC=1, B=41.3417022403997549418, THETA=0.6, N=2, initialdl=1e-05, trajectorydl=0.0001, initialds=1e-05, trajectorydsMax=1e-05, uncertainty=1e-13, dataskipdl=100, dataskipds=999
+# Option-dependent values: K=32.6000000000000014211, y=-0.609999999999999986677, Kstar=                  -10, ystar=                  -10, c=                    0, Z=                    0, lambda=                    0, initialKdir=0, flowdir=1, Max_steps=1000
+# Initialized values: Deltas=0, Deltal=0, count_steps=0, count_passes=0, K0c=0, oldK0c=-100
+# Input-file parameter: Cc=6.92063e-310
+# step	K	y	path-length-l	path-length-s (in K-y-space)
+0	32.600000000000001	-0.60999999999999999	0	0
+1	32.871052052546062	-0.61219476267482964	1e-05	0.271061
+2	33.147651513611692	-0.61442557521056573	2e-05	0.547669
+3	33.429981796273154	-0.61669344120526182	3e-05	0.830009
+4	33.718234730235004	-0.61899940455433855	4e-05	1.11827
+5	34.012611058409178	-0.62134455158186719	5e-05	1.41266
+6	34.313320969457905	-0.62373001331251643	6e-05	1.71338
+7	34.620584669399669	-0.62615696789534314	7e-05	2.02065
+8	34.934632995688361	-0.62862664319164929	8e-05	2.33471
+9	35.255708077522144	-0.63114031954028293	9e-05	2.65579
+10	35.584064046525363	-0.63369933271504286	0.0001	2.98416
+100	              inf	             -inf	0.001	-nan
+200	              inf	             -inf	0.002	-nan
+300	              inf	             -inf	0.003	-nan
+400	              inf	             -inf	0.004	-nan
+500	              inf	             -inf	0.005	-nan
+600	              inf	             -inf	0.006	-nan
+700	              inf	             -inf	0.007	-nan
+800	              inf	             -inf	0.008	-nan
+900	              inf	             -inf	0.009	-nan
+1000	              inf	             -inf	0.01	-nan

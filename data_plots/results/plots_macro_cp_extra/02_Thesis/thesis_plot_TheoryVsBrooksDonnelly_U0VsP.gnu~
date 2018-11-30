@@ -1,0 +1,61 @@
+#filename: thesis_plot_TheoryVsBrooksDonnelly_U0VsP.gnu
+#This file/plot is similar to plot_RotonEnergyAtTcVsPressure.png and plot_RotonEnergyVsTemp_atTc.png in the folder .../programs/results
+reset
+set terminal postscript color eps enhanced
+set output 'thesis_plot_TheoryVsBrooksDonnelly_U0VsP.ps'
+#set size 0.85,0.85
+set size 0.85,0.65
+
+set title "^4He Crititcal (near {/Times-Italic T}_{/Symbol-Oblique l}) Smallest Vortex-Loop Energy {/Times-Italic U}_0 (in kelvins) vs Pressure {/Times-Italic P}"
+
+set ylabel "{/Times-Italic U}_0/{/Times-Italic k}_B (K)"
+set xlabel "{/Times-Italic P} (bar)"
+set xrange [0:30]
+set yrange [0:8]
+#set grid
+set key inside top right box width -12 height 0.5 spacing 1.4
+set rmargin 2
+
+PISQ = 9.86960440108935861883
+
+#Parameters & eqn for Tc(P):
+Tc0 = 2.17349425585161
+Tc1 = -0.00982499579394534
+Tc2 = -0.000118194448444384
+Tc3 = -4.36914591522034e-07
+Tc4 = 7.39407378262721e-09
+Tc(x)  = Tc0 + Tc1*x + Tc2*x**2 + Tc3*x**3 + Tc4*x**4
+
+#Parameters & eqn for Cc(P):
+C00 = 1.1065072990556
+C01 = -0.029968073256074
+C02 = 0.000379637825435298
+C03 = -4.10577834175105e-06
+C04 = 1.58974797745796e-07
+C05 = -1.45472153773608e-08
+C06 = 7.66479650573406e-10
+C07 = -2.15799161198247e-11
+C08 = 3.19691154754537e-13
+C09 = -2.19725076315562e-15
+C10 = 4.42628104432153e-18
+Cc(x)  = C00 + C01*x + C02*x**2 + C03*x**3 + C04*x**4 + C05*x**5 + C06*x**6 + C07*x**7 + C08*x**8 + C09*x**9 + C10*x**10
+
+#Parameters & eqn for K0c(P):
+k00 = 0.295359928991731
+k01 = 0.00508413174676733
+k02 = 5.15885451496554e-05
+k03 = 6.69186316462475e-07
+k04 = -2.74622551950506e-08
+k05 = 2.92854219547921e-09
+k06 = -8.80012434467914e-11
+k07 = -1.93460846518787e-13
+k08 = 7.13136752136051e-14
+k09 = -1.47121339074112e-15
+k10 = 9.60439029245856e-18
+K0c(x)  = k00 + k01*x + k02*x**2 + k03*x**3 + k04*x**4 + k05*x**5 + k06*x**6 + k07*x**7 + k08*x**8 + k09*x**9 + k10*x**10
+
+U0ok(x) = PISQ*K0c(x)*Cc(x)*Tc(x)
+
+plot 'BrooksDonnelly_RotonEnergyVsPressTc.dat' using 2:4 title " Roton data taken/extrapolated from Brooks, Donnelly" with linespoints, \
+     U0ok(x) title " Loop theory fit ", \
+     '3Dvlt_macro_cp_extra_BareValues_T0.3_Output30.dat' using 1:11 with points linestyle 1 lc rgb "black" notitle

@@ -1,0 +1,9 @@
+#first three points from RotonEnergyVsTemp_**atm.txt files, rest are extrapolated visually using plot_RotonEnergyVsTemp_atTc.png
+# Pressure (atm)	Tc (K)	Roton Energy (K)
+0	2.1740	5.2002
+1	2.1642	4.9100
+5	2.1215	4.1549
+10	2.0614	3.3330
+15	1.9957	2.4880
+20	1.9235	1.9110
+24	1.8610	2.0440

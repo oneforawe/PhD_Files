@@ -1,0 +1,28 @@
+
+
+*******************************************************************************
+Wed Aug 17 13:18:28 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.20_lmax100_dl0.001_Op2.dat' using 2:8
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f01(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.50663e-05       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A01             = 1
+nu01            = 1
+BREAK:          w = 0 in Givens();  Cjj = 7.01358e-176,  Cij = 1.08493e-173
+

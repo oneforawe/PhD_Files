@@ -1,0 +1,31 @@
+#filename: plot_fit_Pdep_Cc.gnu
+reset
+set terminal postscript color eps enhanced
+set output 'plot_fit_Pdep_Cc.ps'
+set size 1.0,1.1
+
+set title "^4He Core quantity {/Times-Italic C}_c vs Pressure {/Times-Italic P}"
+
+set ylabel "{/Times-Italic C}_c (unitless)"
+set xlabel "{/Times-Italic P} (bar)"
+#set xrange [0:4.38e-4]
+#set yrange [0:3e-5]
+set grid
+set key outside right box width -20 height 0.5 spacing 1.2 title " Calculated from {/CM-Typewriter vlt\\_ThermStates.c} \n Fit: {/Symbol-Oblique r}_s / {/Symbol-Oblique r} = {/Times-Italic A}{/Symbol \242}{/Symbol-Oblique t}^{/Symbol-Oblique n} \n {/Symbol-Oblique n} = 0.6716883522798452"
+set rmargin 35
+
+#Defining the fit parameters and equation:
+C00 = 0.25553377337803
+C01 = -0.00256526982958679
+C02 = -1.59248566213273e-06
+C03 = -1.12242835084735e-08
+C04 = -3.43442376946553e-11
+C05 = -6.67251773593616e-14
+C06 = -5.33216659224555e-17
+fCc(x)  = C00 + C01*x + C02*x**2 + C03*x**3 + C04*x**4 + C05*x**5 + C06*x**6
+
+plot 'Pdep_Cc.dat' using 3:1 with points, \
+     fCc(x)
+
+#fCc(x)  = C00 + C01*x + C02*x**2 + C03*x**3 + C04*x**4 + C05*x**5 + C06*x**6 + C07*x**7 + C08*x**8 + C09*x**9 + C10*x**10 + C11*x**11 + C12*x**12
+#fit fCc(x)  'Pdep_Cc.dat' using 3:1 via C00,C01,C02,C03,C04,C05,C06,C07,C08,C09,C10,C11,C12

@@ -1,0 +1,10 @@
+#filename: plot_2D_KrversusT_B_linlin
+reset
+set terminal png
+set output "plot_2D_KrversusT_B.png"
+set title "Renormalized coupling constant (Kr) vs Temperature (T/Tc) in 2D"
+set ylabel "Kr"
+set xlabel "T/Tc"
+set grid
+set key left bottom box
+plot "2DKT_B_Dexp100.dat" using 1:7 with linespoints title " l_max = 100"

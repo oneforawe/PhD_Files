@@ -1,0 +1,7 @@
+# Filename: vlt_FPquench_vst_T_1_0.1_P_00.050_lmax10_dl0.008_tmax10000_dt04e-09.dat
+# Source: vlt_FPquench.c
+# Source version: 1 (2011 Jan 18)
+# Parameter values: iTfrac=1, qTfrac=0.1, P=0.05 (Cc=1.10502, K0c=0.295611), lmax=10, lsteps=1250, (dl=0.008), lpts=1251, ldatamax=250, tmax=10000, dt0=4e-09, a0=1, a06=1, THETA=0.6, CONST=1
+# time-step	t	T/Tc	1-T/Tc	l	K	K/K0	Kr/K0	G	vldens
+0	0	1	0	10	0.387511	1.31088	5.95138e-05	5.46582e-28	0.20534
+1	4e-09	0.1	0.9	10	-nan	-nan	-nan	1.02273e+11	1.06972e+23

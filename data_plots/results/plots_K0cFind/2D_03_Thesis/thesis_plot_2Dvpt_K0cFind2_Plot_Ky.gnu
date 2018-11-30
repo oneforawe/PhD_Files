@@ -1,0 +1,174 @@
+#filename: thesis_plot_2Dvpt_K0cFind2_Plot_Ky.gnu
+reset
+set terminal postscript color eps enhanced
+set output 'thesis_plot_2Dvpt_K0cFind2_Plot_Ky.ps'
+set size 0.85,0.85
+##set size 1.00,0.85
+#set size 0.85,1.20
+
+#set samples 1000000
+
+#set title "^4He Fugacity {/Times-Italic y} vs Coupling Parameter {/Times-Italic K}"
+set title "2D Fugacity {/Times-Italic y} vs Coupling Parameter {/Times-Italic K} (Scaling Equation Flows)"
+
+set ylabel "{/Times-Italic y} (unitless)"
+set xlabel "{/Times-Italic K} (unitless)"
+
+PI   = 3.14159265358979323846
+PISQ = 9.86960440108935861883
+PICU = 31.00627668029981620634
+A2 = 4.0*PICU
+
+
+set xrange [-32.0/PI:32.0/PI]
+set yrange [-0.15:0.15]
+
+#set xrange [0:8.0/PI]
+#set yrange [0:2]
+#set xrange [0:64.0/PI]
+#set yrange [0.35:0.55]
+
+#set xrange [0:64.0/PI]
+#set yrange [-0.55:0.55]
+
+#set xtic 4.0*2.0/PI
+set xtics ("-32/{/Symbol p}" -32.0/PI, "-24/{/Symbol p}" -24.0/PI, "-16/{/Symbol p}" -16.0/PI, "-8/{/Symbol p}" -8.0/PI, "0" 0, "8/{/Symbol p}" 8.0/PI, "16/{/Symbol p}" 16.0/PI, "24/{/Symbol p}" 24.0/PI, "32/{/Symbol p}" 32.0/PI)
+
+#set mxtics 4
+
+set grid
+#####set key at graph 0.85,-0.21 box width -5 height 0.5 spacing 1.6 title " Finding {/Times-Italic K}@^{{} {/Times-Italic l}0^{^{}}}_{c  }, given a {/Times-Italic C}_c^ "
+#set key outside below center box width -5 height 0.5 spacing 1.2 title " Finding {/Times-Italic K}_{0c}, given a {/Times-Italic C}@_c^ "
+#####set bmargin 9.7
+#set rmargin 20
+set rmargin 2
+##set key outside right
+#set bmargin 20
+#set key outside below
+set key off
+
+set pointsize 0.5
+#set pointsize 0.125
+
+
+## Vertical Line Flows ##
+set arrow from 0,0     to 0,0.074 lt 1 lc rgb "red" nohead
+set arrow from 0,0.074 to 0,0.15  lt 2 lc rgb "red" nohead
+
+set arrow from 0,0      to 0,-0.075 lt 1 lc rgb "red" nohead
+set arrow from 0,-0.075 to 0,-0.15  lt 2 lc rgb "red" nohead
+
+
+plot '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y0.125_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y0.125_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y0.075_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y0.075_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y0.025_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y0.025_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.025_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.025_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.075_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.075_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.125_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.125_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.175_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.175_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.225_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.225_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y0.225_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y0.225_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y0.175_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y0.175_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y0.125_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y0.125_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y0.075_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y0.075_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y0.025_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y0.025_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y-0.025_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y-0.025_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y-0.075_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y-0.075_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y-0.125_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y-0.125_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y-0.175_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y-0.175_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3363_K-2.546_y-0.225_step1000000.dat' using 2:3 with lines lt 2 lc rgb "red" title "(dl const)", \
+     '2Dvpt_K0cFind2_Plot_Op3374_K-2.546_y-0.225_step1000000.dat' using 2:3 with lines lt 1 lc rgb "red" title "(dl const)"
+
+
+#     4.0/(A2*x) notitle ls 0, \
+#     (2.0*PI/A2)*log(x)-0.005 notitle ls 0
+
+
+
+
+#     exp(-PISQ*0.10*x) lt 2 lc rgb "yellow" notitle, \
+#     exp(-PISQ*0.40*x) lt 2 lc rgb "blue" notitle, \
+#     exp(-PISQ*1.00*x) lt 2 notitle, \
+#     exp(-PISQ*1.10*x) lt 2 lc rgb "red"  notitle, \
+#     exp(-PISQ*1.20*x) lt 2 lc rgb "yellow" notitle, \
+#     1.0/(A3*x) notitle ls 0, \
+
+#     '2Dvpt_K0cFind2_Plot_Op3363_K-0.637_y0.125_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K-0.637_y0.125_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K-0.637_y0.075_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K-0.637_y0.075_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K-0.637_y0.025_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K-0.637_y0.025_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K-0.637_y-0.025_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K-0.637_y-0.025_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K-0.637_y-0.075_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K-0.637_y-0.075_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K-0.637_y-0.125_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K-0.637_y-0.125_step1000000.dat' using 2:3 with points title "(dl const)"
+
+#'2Dvpt_K0cFind2_Plot_Op3363_K0.637_y0.150_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y0.150_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y0.100_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y0.100_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y0.050_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y0.050_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.050_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.050_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.100_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.100_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.150_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.150_step1000000.dat' using 2:3 with points title "(dl const)"
+
+#'2Dvpt_K0cFind2_Plot_Op3341_K0.637_y0.000_step4000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3341_K0.637_y0.000_step100000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3341_K0.637_y0.000_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3341_K0.300_y0.000_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3341_K0.000_y0.000_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3341_K0.300_y0.500_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3341_K0.300_y1.000_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3352_K0.300_y0.500_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3352_K0.300_y1.000_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3352_K1.000_y1.000_step10000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3341_K1.000_y1.000_step10000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3341_K0.159_y0.500_step10000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3352_K0.159_y0.500_step10000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.159_y0.500_step10000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.159_y0.500_step10000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.159_y0.500_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.159_y0.500_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.159_y-0.500_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.159_y-0.500_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.318_y-0.500_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.318_y-0.500_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3363_K0.637_y-0.050_step1000000.dat' using 2:3 with points title "(dl const)", \
+#     '2Dvpt_K0cFind2_Plot_Op3374_K0.637_y-0.050_step1000000.dat' using 2:3 with points title "(dl const)"
+
+
+
+
+
+
+
+#ls 2 lc rgb "red"     title " Adjusted theory, {/Times-Italic c}@_{/Times-Italic P}^{adj} ", \
+#ls 2 lc rgb "blue"    notitle, \
+#ls 2 lc rgb "magenta" notitle, \
+#ls 2 lc rgb "cyan"    notitle, \
+#ls 2 lc rgb "yellow"  notitle, \
+#ls 2 lc rgb "black"   notitle

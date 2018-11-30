@@ -1,0 +1,9 @@
+
+
+
+NOTE that  plot_2Dvpt_K0cFind_Plot_y.gnu
+
+gives the clearest visual for what's going on, but the "IDEA(S) FOR BETTER CODE" in 2Dvpt_K0cFind_Plot.c
+
+give a better way to find K0c using analysis of K (rather than y).
+

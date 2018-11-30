@@ -1,0 +1,22 @@
+set terminal png
+set output "plot_2D_KKrversusl.png"
+set title "Coupling constants (K) and (Kr) vs Length scale (l) \n at various temperatures"
+set ylabel "K and Kr"
+set xlabel "l"
+set logscale y
+set grid
+set key left bottom box
+plot "2D_KKrversusl0.dat" using 3:5 with linespoints title " K at tv = e-8", \
+     "2D_KKrversusl1.dat" using 3:5 with linespoints title " K at tv = e-7", \
+     "2D_KKrversusl2.dat" using 3:5 with linespoints title " K at tv = e-6", \
+     "2D_KKrversusl3.dat" using 3:5 with linespoints title " K at tv = e-5", \
+     "2D_KKrversusl4.dat" using 3:5 with linespoints title " K at tv = e-4", \
+     "2D_KKrversusl5.dat" using 3:5 with linespoints title " K at tv = e-3", \
+     "2D_KKrversusl6.dat" using 3:5 with linespoints title " K at tv = e-2", \
+     "2D_KKrversusl0.dat" using 3:7 with linespoints title " Kr at tv = e-8", \
+     "2D_KKrversusl1.dat" using 3:7 with linespoints title " Kr at tv = e-7", \
+     "2D_KKrversusl2.dat" using 3:7 with linespoints title " Kr at tv = e-6", \
+     "2D_KKrversusl3.dat" using 3:7 with linespoints title " Kr at tv = e-5", \
+     "2D_KKrversusl4.dat" using 3:7 with linespoints title " Kr at tv = e-4", \
+     "2D_KKrversusl5.dat" using 3:7 with linespoints title " Kr at tv = e-3", \
+     "2D_KKrversusl6.dat" using 3:7 with linespoints title " Kr at tv = e-2"

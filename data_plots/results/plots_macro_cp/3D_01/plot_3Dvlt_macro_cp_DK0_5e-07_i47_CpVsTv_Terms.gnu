@@ -1,0 +1,31 @@
+#filename: plot_3Dvlt_macro_cp_DK0_5e-07_i47_CpVsTv_Terms.gnu
+reset
+set terminal postscript color eps enhanced
+set output 'plot_3Dvlt_macro_cp_DK0_5e-07_i47_CpVsTv_Terms.ps'
+
+set title "^4He Molar Specific Heat Capacity Terms {/Times-Italic c_P} = cp01+cp02+... \n vs Temperature Variable {/Symbol-Oblique t} = {/Times-Italic 1 - T / T}_{/Symbol-Oblique l}"
+
+set ylabel "{/Times-Italic c_P} terms (J mol^{-1} K^{-1})"
+set xlabel "{/Symbol-Oblique t} = {/Times-Italic 1 - T / T}_{/Symbol-Oblique l}{/Times-Italic (P)} (unitless)"
+set logscale x
+set xrange [1:1e-8]
+#set xrange [1e-2:1e-8]
+set mxtics 10
+set yrange [-30:300]
+#set yrange [0:1]
+set grid
+#set key inside left top box width -8 spacing 1.2 title "Calculated from \n {/CM-Typewriter vlt\\_HeatCap\\_P.c}"
+set key inside left top box width -8 height 0.5 spacing 1.3 title " VLT calculations "
+set rmargin 4
+
+plot '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:9  with linespoints title " {/Times-Italic P} = 0.050 bar; Tot {/Times-Italic c_P}  ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:10 with linespoints title " cp01 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:11 with linespoints title " cp02 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:12 with linespoints title " cp03 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:13 with linespoints title " cp04 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:14 with linespoints title " cp05 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:15 with linespoints title " cp06 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:16 with linespoints title " cp07 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:17 with linespoints title " cp08 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:18 with linespoints title " cp09 ", \
+     '3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat' using 2:19 with linespoints title " cp10 "

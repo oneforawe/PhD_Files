@@ -1,0 +1,23 @@
+
+
+
+The data comes from  ring_output_old.odt  Sheet6
+
+data00.dat  ring.c
+data01.dat  ring4.c
+data02.dat  (1-T/Tc)^0.67168
+
+
+
+plot01
+
+something like this:
+set title "Superfluid fraction (Kr/K0) vs (1-T/Tc)"
+set xlabel "1-T/Tc"
+set ylabel "Kr/K0"
+set logscale xy
+set key left box
+plot [0.000000001:0.1] "data00.dat","data01.dat","data02.dat"
+
+
+

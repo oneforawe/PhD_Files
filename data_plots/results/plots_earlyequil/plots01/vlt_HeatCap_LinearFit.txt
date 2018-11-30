@@ -1,0 +1,43 @@
+
+from vlt_HeatCap_DK0_1e-7.dat
+
+		tempv		cap*8.31
+----------------------------------------
+initial		3.65982e-07	82.9736
+final		0.0080613	23.1622
+
+
+C_V = m*log_10(1-T/T_lambda) + b
+
+Thus
+m = (Delta C_V) / (Delta log_10(1-T/T_lambda))
+b = (C_V)_final - m*log_10(1-T/T_lambda)_final
+
+m = -13.7720820955
+b = -5.67096106256
+
+
+
+
+
+
+
+From Williams' 1995 paper:
+  C_V = A * (C_V)_vortex + (C_V)_ns
+  (ns = nonsingular background part of specific heat)
+
+
+Fit of Ahlers' data:
+  C_V = -12.2795*log_10(1-T/T_lambda) + 13.4772
+
+Fit of my calculated data (using vlt_HeatCap.c):
+  (C_V)_vortex = -13.7720820955*log_10(1-T/T_lambda) - 5.67096106256
+
+
+My conclusion:
+        A = 0.892  =  0.891622625748
+ (C_V)_ns = 18.5   =  18.5335571931 J/(mol K)
+
+Williams' conclusion:
+        A = 0.3
+ (C_V)_ns = 18.5 J/(mol K)

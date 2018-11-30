@@ -1,0 +1,19 @@
+filename: HeatCapFits2_4ThesisTable.dat
+SHIFTED POWER FORM FIT
+
+	c_P = A * (c_P)_vortex + (c_P)_ns
+	     (ns = nonsingular background part of specific heat)
+
+	c_P experimental data parameters               				(c_P)_vortex calculation parameters
+	     ( c_P = a*(1-T/T_lambda)^(-alpha) + b )   				     ( (c_P)_vortex = c*(1-T/T_lambda)^(-alpha) + d )
+
+
+P	a	b	c	d	(c_P)_ns	A
+(bar)	(J/(K.mol))	(J/(K.mol))	(J/(K.mol))	(J/(K.mol))	(J/(K.mol))	(unitless)
+ $0$&$05$ & $266.8$ & $-244.4$ & $1065.3$ & $-1065.5$ & $22.44$ & $0.2505$ & $
+ $1$&$65$ & $297.1$ & $-280.1$ & $1072.1$ & $-1072.5$ & $17.10$ & $0.2771$ & $
+ $7$&$33$ & $284.9$ & $-270.3$ & $1067.5$ & $-1068.5$ & $14.84$ & $0.2669$ & $
+$15$&$03$ & $263.4$ & $-249.8$ & $1011.5$ & $-1013.8$ & $14.17$ & $0.2604$ & $
+$18$&$18$ & $251.9$ & $-238.4$ & $979.7$ & $-982.4$ & $14.22$ & $0.2571$ & $
+$22$&$53$ & $234.2$ & $-220.3$ & $932.2$ & $-935.5$ & $14.66$ & $0.2512$ & $
+$25$&$87$ & $242.2$ & $-229.3$ & $893.3$ & $-896.6$ & $13.82$ & $0.2711$ & $

@@ -1,0 +1,13 @@
+# from HeliumDensities.ods, using RhosAmps.ods, Ahlers data, and Brooks & Donnelly data
+# Pressure (bar)	4He density (kg/m^3)	Tc (K) (T_lambda)
+0	145.98	2.1734
+2.53	150.56	2.1479
+5.07	154.55	2.1207
+7.6	158.07	2.0919
+10.13	161.27	2.0614
+12.67	164.07	2.0294
+15.2	166.69	1.9957
+17.73	169.00	1.9604
+20.27	171.22	1.9235
+22.8	173.39	1.8849
+25.33	175.46	1.8447

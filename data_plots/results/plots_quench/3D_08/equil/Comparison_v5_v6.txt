@@ -1,0 +1,60 @@
+Just comparing the relevant equilibrium part of the code.
+
+Version 5:
+
+			z[0] = K[0] = K0 = K0c/iTfrac;
+			z[1] = y0 = exp(-PISQ*K0*Cc);
+			G[0] = z[1]*exp(-6*l[0])/a06;  // G (not = 0.0)
+
+			i = 0;
+			while(i<lpts){
+				i++;
+				rk4(EqRecRel, &x, z, dl, 2);  // equil: rk4 2D (K and y), EqRecRel
+				l[i] = l[i-1] + dl;
+				K[i] = z[0];
+				G[i] = z[1]*exp(-6*l[i])/a06;
+				// Print at most [ldatamax] (e.g., 50) data points to screen and output file 1 //
+				if(i%(lsteps/ldatamax)==0){
+					printf(          "%g\t%g\t%g\t%g\t%g\t%g\t%g\n", iTfrac, 1-iTfrac, l[i], K[i], K[i]/K0, Kr[i]/K0, G[i]);
+					fprintf(outfile1,"%g\t%g\t%g\t%g\t%g\t%g\t%g\n", iTfrac, 1-iTfrac, l[i], K[i], K[i]/K0, Kr[i]/K0, G[i]);
+				}
+			}
+
+// Equilibrium (K,y,e) recursion relations //
+void EqRecRel(double x, double z[], double dzdx[], unsigned n){
+	dzdx[0] = z[0]-B*z[0]*z[0]*z[1];
+	if( THETA*log(z[0]) > 0.0 ) // if ac' > a, set ac' = a (set THETA*log(K[i]) to zero)
+		dzdx[1] = z[1]*( 6.0 - PISQ*z[0] );
+	else
+		dzdx[1] = z[1]*( 6.0 - PISQ*z[0]*(1.0-THETA*log(z[0])) );
+}
+
+
+
+Version 6:
+
+			z[0] = K[0] = K0 = K0c/iTfrac;
+			z[1] = G[0] = G0 = exp(-6*l[0]-PISQ*K0*Cc)/a06;
+
+			i = 0;
+			while(i<lpts){
+				i++;
+				rk4(EqRecRel, &x, z, dl, 2);  // equil: rk4 2D (K and y), EqRecRel
+				l[i] = l[i-1] + dl;
+				K[i] = z[0];
+				G[i] = z[1];
+				// Print at most [ldatamax] (e.g., 50) data points to screen and output file 1 //
+				if(i%(lsteps/ldatamax)==0){
+					printf(          "%g\t%g\t%g\t%g\t%g\t%g\t%g\n", iTfrac, 1-iTfrac, l[i], K[i], K[i]/K0, Kr[i]/K0, G[i]);
+					fprintf(outfile1,"%g\t%g\t%g\t%g\t%g\t%g\t%g\n", iTfrac, 1-iTfrac, l[i], K[i], K[i]/K0, Kr[i]/K0, G[i]);
+				}
+			}
+
+// Equilibrium (K,G,e) recursion relations //
+void EqRecRel(double x, double z[], double dzdx[], unsigned n){
+	dzdx[0] = z[0]-B*a06*exp(6.0*x)*z[1]*z[0]*z[0];
+	if( THETA*log(z[0]) > 0.0 ) // if ac' > a, set ac' = a (set THETA*log(K[i]) to zero)
+		dzdx[1] = -PISQ*z[1]*z[0];
+	else
+		dzdx[1] = -PISQ*z[1]*z[0]*(1.0-THETA*log(z[0]));
+}

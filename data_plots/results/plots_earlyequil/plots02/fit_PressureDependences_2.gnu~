@@ -1,0 +1,36 @@
+#filename: fit_PressureDependences_2.gnu
+fCc(x)  = C00 + C01*x + C02*x**2 + C03*x**3 + C04*x**4 + C05*x**5 + C06*x**6 + C07*x**7 + C08*x**8 + C09*x**9 + C10*x**10 + C11*x**11 + C12*x**12
+fK0c(x)  = K00 + K01*x + K02*x**2 + K03*x**3 + K04*x**4 + K05*x**5 + K06*x**6 + K07*x**7 + K08*x**8 + K09*x**9 + K10*x**10 + K11*x**11 + K12*x**12
+fit fCc(x)  'PressureDependences_2.dat' using ($3-2.46303)/-0.0281536:1 via C00,C01,C02,C03,C04,C05,C06,C07,C08,C09,C10,C11,C12
+fit fK0c(x) 'PressureDependences_2.dat' using ($3-2.46303)/-0.0281536:2 via K00,K01,K02,K03,K04,K05,K06,K07,K08,K09,K10,K11,K12
+update 'fit_PressureDependences_2.par' 'fit_PressureDependences_2.par'
+set print 'fit_PressureDependences_2.par'
+print "Cc(P) fit parameters\n", \
+      C00,"\n", \
+      C01,"\n", \
+      C02,"\n", \
+      C03,"\n", \
+      C04,"\n", \
+      C05,"\n", \
+      C06,"\n", \
+      C07,"\n", \
+      C08,"\n", \
+      C09,"\n", \
+      C10,"\n", \
+      C11,"\n", \
+      C12,"\n\n", \
+      "K0c(P) fit parameters\n", \
+      K00,"\n", \
+      K01,"\n", \
+      K02,"\n", \
+      K03,"\n", \
+      K04,"\n", \
+      K05,"\n", \
+      K06,"\n", \
+      K07,"\n", \
+      K08,"\n", \
+      K09,"\n", \
+      K10,"\n", \
+      K11,"\n", \
+      K12
+unset print

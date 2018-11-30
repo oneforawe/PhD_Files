@@ -1,0 +1,4333 @@
+
+
+*******************************************************************************
+Sun Oct 30 21:27:50 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.20_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f01(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.67796e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A01             = 1
+nu01            = 1
+
+After 36 iterations the fit converged.
+final sum of squares of residuals : 5.36027e-18
+rel. change during last iteration : -2.16216e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.29927e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.84837e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A01             = 2.5656           +/- 8.373e-06    (0.0003264%)
+nu01            = 0.671686         +/- 2.693e-07    (4.009e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A01    nu01   
+A01             1.000 
+nu01            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:50 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.10_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f02(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.34863e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A02             = 1
+nu02            = 1
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 2.35515e-17
+rel. change during last iteration : -6.29166e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.01177e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.1212e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A02             = 2.4743           +/- 1.755e-05    (0.0007093%)
+nu02            = 0.671685         +/- 5.853e-07    (8.713e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A02    nu02   
+A02             1.000 
+nu02            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:50 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.06_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f03(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.21262e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A03             = 1
+nu03            = 1
+
+After 39 iterations the fit converged.
+final sum of squares of residuals : 4.50775e-18
+rel. change during last iteration : -1.22978e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.94258e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.5544e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A03             = 2.43567          +/- 7.679e-06    (0.0003153%)
+nu03            = 0.671688         +/- 2.601e-07    (3.873e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A03    nu03   
+A03             1.000 
+nu03            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:50 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.05_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f04(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.17819e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A04             = 1
+nu04            = 1
+
+After 39 iterations the fit converged.
+final sum of squares of residuals : 1.67708e-17
+rel. change during last iteration : -8.03871e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.60463e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.78304e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A04             = 2.4257           +/- 1.481e-05    (0.0006106%)
+nu04            = 0.671685         +/- 5.038e-07    (7.5e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A04    nu04   
+A04             1.000 
+nu04            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:50 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.04_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f05(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.14362e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A05             = 1
+nu05            = 1
+
+After 39 iterations the fit converged.
+final sum of squares of residuals : 9.8795e-18
+rel. change during last iteration : -1.1174e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.83672e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.40673e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A05             = 2.41574          +/- 1.137e-05    (0.0004706%)
+nu05            = 0.671686         +/- 3.883e-07    (5.78e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A05    nu05   
+A05             1.000 
+nu05            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:50 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.03_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f06(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.10889e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A06             = 1
+nu06            = 1
+
+After 39 iterations the fit converged.
+final sum of squares of residuals : 1.22459e-17
+rel. change during last iteration : -9.36255e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.49824e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.22271e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A06             = 2.40567          +/- 1.266e-05    (0.0005261%)
+nu06            = 0.671685         +/- 4.341e-07    (6.462e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A06    nu06   
+A06             1.000 
+nu06            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:50 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.02_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f07(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.07399e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A07             = 1
+nu07            = 1
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 1.31976e-17
+rel. change during last iteration : -9.25973e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.74605e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.55091e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A07             = 2.39551          +/- 1.314e-05    (0.0005485%)
+nu07            = 0.671686         +/- 4.525e-07    (6.737e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A07    nu07   
+A07             1.000 
+nu07            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:50 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.01_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f08(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.03893e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A08             = 1
+nu08            = 1
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 1.08303e-17
+rel. change during last iteration : -1.02489e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.11112e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.73458e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A08             = 2.38526          +/- 1.19e-05     (0.000499%)
+nu08            = 0.671686         +/- 4.117e-07    (6.129e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A08    nu08   
+A08             1.000 
+nu08            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.00_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f09(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.0037e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A09             = 1
+nu09            = 1
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 7.53209e-18
+rel. change during last iteration : -1.23634e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.09635e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.59727e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A09             = 2.37494          +/- 9.926e-06    (0.0004179%)
+nu09            = 0.671686         +/- 3.448e-07    (5.134e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A09    nu09   
+A09             1.000 
+nu09            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.99_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f10(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.9683e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A10             = 1
+nu10            = 1
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 2.87461e-18
+rel. change during last iteration : -2.14871e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.14841e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.91246e-20
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A10             = 2.36453          +/- 6.132e-06    (0.0002593%)
+nu10            = 0.671687         +/- 2.14e-07     (3.186e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A10    nu10   
+A10             1.000 
+nu10            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.98_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f11(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.93273e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A11             = 1
+nu11            = 1
+
+After 41 iterations the fit converged.
+final sum of squares of residuals : 1.52236e-17
+rel. change during last iteration : -7.18379e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.24536e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.24952e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A11             = 2.35395          +/- 1.411e-05    (0.0005995%)
+nu11            = 0.671686         +/- 4.946e-07    (7.364e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A11    nu11   
+A11             1.000 
+nu11            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.97_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f12(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.89699e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A12             = 1
+nu12            = 1
+
+After 41 iterations the fit converged.
+final sum of squares of residuals : 2.21497e-17
+rel. change during last iteration : -5.48498e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.73947e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.63784e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A12             = 2.3433           +/- 1.702e-05    (0.0007264%)
+nu12            = 0.671685         +/- 5.993e-07    (8.922e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A12    nu12   
+A12             1.000 
+nu12            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.90_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f13(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.64196e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A13             = 1
+nu13            = 1
+
+After 43 iterations the fit converged.
+final sum of squares of residuals : 3.60835e-18
+rel. change during last iteration : -1.96309e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.5274e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.24426e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A13             = 2.266            +/- 6.87e-06     (0.0003032%)
+nu13            = 0.671687         +/- 2.501e-07    (3.724e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A13    nu13   
+A13             1.000 
+nu13            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.80_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f14(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.26226e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A14             = 1
+nu14            = 1
+
+After 46 iterations the fit converged.
+final sum of squares of residuals : 3.09718e-18
+rel. change during last iteration : -2.17503e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.26802e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.06799e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A14             = 2.14566          +/- 6.365e-06    (0.0002966%)
+nu14            = 0.671687         +/- 2.448e-07    (3.644e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A14    nu14   
+A14             1.000 
+nu14            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.70_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f15(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.8636e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A15             = 1
+nu15            = 1
+
+After 25 iterations the fit converged.
+final sum of squares of residuals : 3.82728e-18
+rel. change during last iteration : -4.23212e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.63284e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31975e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A15             = 2.01146          +/- 7.075e-06    (0.0003518%)
+nu15            = 0.671686         +/- 2.902e-07    (4.321e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A15    nu15   
+A15             1.000 
+nu15            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.60_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f16(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.44531e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A16             = 1
+nu16            = 1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.48174e-17
+rel. change during last iteration : -1.99963e-06
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.49502e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.23508e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A16             = 1.86012          +/- 2.912e-05    (0.001565%)
+nu16            = 0.671683         +/- 1.291e-06    (0.0001923%)
+
+
+correlation matrix of the fit parameters:
+
+               A16    nu16   
+A16             1.000 
+nu16            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.55_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f17(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.2288e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A17             = 1
+nu17            = 1
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 1.18423e-16
+rel. change during last iteration : -6.15438e-10
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.02078e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.08354e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A17             = 1.77671          +/- 3.936e-05    (0.002215%)
+nu17            = 0.671682         +/- 1.828e-06    (0.0002721%)
+
+
+correlation matrix of the fit parameters:
+
+               A17    nu17   
+A17             1.000 
+nu17            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.50_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f18(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.00753e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A18             = 1
+nu18            = 1
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 1.59947e-16
+rel. change during last iteration : -4.80051e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.34849e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.51542e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A18             = 1.68714          +/- 4.574e-05    (0.002711%)
+nu18            = 0.67168          +/- 2.237e-06    (0.000333%)
+
+
+correlation matrix of the fit parameters:
+
+               A18    nu18   
+A18             1.000 
+nu18            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.40_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f19(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.55217e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A19             = 1
+nu19            = 1
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 2.36975e-16
+rel. change during last iteration : -9.8853e-11
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.85859e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.17154e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A19             = 1.48577          +/- 5.567e-05    (0.003747%)
+nu19            = 0.671678         +/- 3.091e-06    (0.0004602%)
+
+
+correlation matrix of the fit parameters:
+
+               A19    nu19   
+A19             1.000 
+nu19            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.30_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f20(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.08505e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A20             = 1
+nu20            = 1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 2.39987e-16
+rel. change during last iteration : -1.89179e-06
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.8767e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.2754e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A20             = 1.24534          +/- 5.602e-05    (0.004498%)
+nu20            = 0.671677         +/- 3.712e-06    (0.0005526%)
+
+
+correlation matrix of the fit parameters:
+
+               A20    nu20   
+A20             1.000 
+nu20            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:27:51 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.20_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f21(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.21486e-07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A21             = 1
+nu21            = 1
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 7.66283e-17
+rel. change during last iteration : -1.9406e-07
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.62553e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.64236e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A21             = 0.947147         +/- 3.166e-05    (0.003342%)
+nu21            = 0.67168          +/- 2.758e-06    (0.0004106%)
+
+
+correlation matrix of the fit parameters:
+
+               A21    nu21   
+A21             1.000 
+nu21            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.20_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f01(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.95113e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A01             = 2.5656
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.65275e-21
+rel. change during last iteration : -3.06517e-11
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.30337e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.3055e-22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A01             = 2.56568          +/- 1.411e-06    (5.498e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A01    
+A01             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.10_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f02(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.52962e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A02             = 2.4743
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.48812e-21
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.23075e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.97625e-22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A02             = 2.47441          +/- 1.366e-06    (5.521e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A02    
+A02             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.06_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f03(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.70486e-19       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A03             = 2.43567
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8.76891e-21
+rel. change during last iteration : -1.04198e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.18782e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.75378e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A03             = 2.4357           +/- 2.565e-06    (0.0001053%)
+
+
+correlation matrix of the fit parameters:
+
+               A03    
+A03             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.05_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f04(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.11931e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A04             = 2.4257
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.6397e-21
+rel. change during last iteration : -3.48784e-12
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.29769e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.2794e-22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A04             = 2.42581          +/- 1.407e-06    (5.801e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A04    
+A04             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.04_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f05(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.97902e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A05             = 2.41574
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.20058e-20
+rel. change during last iteration : -9.25698e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.90017e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.40117e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A05             = 2.41583          +/- 3.001e-06    (0.0001242%)
+
+
+correlation matrix of the fit parameters:
+
+               A05    
+A05             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.03_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f06(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.22292e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A06             = 2.40567
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.64099e-21
+rel. change during last iteration : -7.2575e-12
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.04663e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.28197e-22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A06             = 2.40576          +/- 1.866e-06    (7.756e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A06    
+A06             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.02_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f07(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.21825e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A07             = 2.39551
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.34813e-20
+rel. change during last iteration : -9.24032e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.19256e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.69627e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A07             = 2.39561          +/- 3.18e-06     (0.0001327%)
+
+
+correlation matrix of the fit parameters:
+
+               A07    
+A07             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.01_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f08(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.25154e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A08             = 2.38526
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.56588e-21
+rel. change during last iteration : -6.38106e-12
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.62378e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31318e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A08             = 2.38536          +/- 2.219e-06    (9.304e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A08    
+A08             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.00_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f09(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.4904e-18        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A09             = 2.37494
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.06059e-21
+rel. change during last iteration : -8.32346e-12
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.48155e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.21212e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A09             = 2.37501          +/- 2.132e-06    (8.978e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A09    
+A09             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.99_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f10(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.12894e-19       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A10             = 2.36453
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.30597e-20
+rel. change during last iteration : -2.16245e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.11071e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.61193e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A10             = 2.36457          +/- 3.13e-06     (0.0001324%)
+
+
+correlation matrix of the fit parameters:
+
+               A10    
+A10             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.98_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f11(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.02161e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A11             = 2.35395
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.21805e-21
+rel. change during last iteration : -1.72617e-11
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.10621e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.43611e-22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A11             = 2.35403          +/- 1.29e-06     (5.48e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A11    
+A11             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.97_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f12(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.9396e-18        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A12             = 2.3433
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.03777e-21
+rel. change during last iteration : -1.66854e-11
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.47499e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.20755e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A12             = 2.3434           +/- 2.128e-06    (9.082e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A12    
+A12             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.90_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f13(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.54516e-19       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A13             = 2.266
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8.17475e-21
+rel. change during last iteration : -5.15845e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.04345e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.63495e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A13             = 2.26606          +/- 2.476e-06    (0.0001093%)
+
+
+correlation matrix of the fit parameters:
+
+               A13    
+A13             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.80_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f14(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.69129e-19       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A14             = 2.14566
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 7.28564e-21
+rel. change during last iteration : -3.58166e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.81723e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.45713e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A14             = 2.1457           +/- 2.338e-06    (0.000109%)
+
+
+correlation matrix of the fit parameters:
+
+               A14    
+A14             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.70_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f15(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.46022e-18       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A15             = 2.01146
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 4.3373e-19
+rel. change during last iteration : -9.15321e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94527e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.6746e-20
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A15             = 2.01162          +/- 1.804e-05    (0.0008967%)
+
+
+correlation matrix of the fit parameters:
+
+               A15    
+A15             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.60_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f16(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.25754e-17       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A16             = 1.86012
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8.31272e-18
+rel. change during last iteration : -5.72727e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.2894e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.66254e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A16             = 1.86069          +/- 7.897e-05    (0.004244%)
+
+
+correlation matrix of the fit parameters:
+
+               A16    
+A16             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.55_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f17(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.45389e-16       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A17             = 1.77671
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.44305e-17
+rel. change during last iteration : -5.12752e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.69885e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.88609e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A17             = 1.77741          +/- 0.000104     (0.005854%)
+
+
+correlation matrix of the fit parameters:
+
+               A17    
+A17             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.50_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f18(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.11079e-16       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A18             = 1.68714
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.97768e-17
+rel. change during last iteration : -5.46537e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.98881e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.95536e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A18             = 1.68799          +/- 0.0001218    (0.007216%)
+
+
+correlation matrix of the fit parameters:
+
+               A18    
+A18             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.40_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f19(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.90852e-16       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A19             = 1.48577
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.87063e-17
+rel. change during last iteration : -5.15965e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.39609e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.74127e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A19             = 1.48676          +/- 0.0001467    (0.00987%)
+
+
+correlation matrix of the fit parameters:
+
+               A19    
+A19             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.30_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f20(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.80896e-16       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A20             = 1.24534
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.86244e-17
+rel. change during last iteration : -4.97952e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.39267e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.72488e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A20             = 1.24631          +/- 0.0001465    (0.01176%)
+
+
+correlation matrix of the fit parameters:
+
+               A20    
+A20             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 21:51:46 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.20_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f21(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.824e-17         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A21             = 0.947147
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8.95973e-18
+rel. change during last iteration : -4.99948e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.33864e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.79195e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A21             = 0.947692         +/- 8.198e-05    (0.008651%)
+
+
+correlation matrix of the fit parameters:
+
+               A21    
+A21             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:19:25 2011
+
+
+FIT:    data read from 'Pdep_Cc_lmax100_dl0.001_Op2.dat' using 3:1
+        format = x:z
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fCc(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.37797e+34       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.35125e+16
+
+initial set of free parameter values
+
+C00             = 1
+C01             = 1
+C02             = 1
+C03             = 1
+C04             = 1
+C05             = 1
+C06             = 1
+C07             = 1
+C08             = 1
+C09             = 1
+C10             = 1
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 2.26643e-10
+rel. change during last iteration : -9.44134e-13
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.7607e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.26643e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+C00             = 1.0881           +/- 3.38e-06     (0.0003106%)
+C01             = -0.0292924       +/- 3.078e-06    (0.01051%)
+C02             = 0.000367071      +/- 7.912e-07    (0.2155%)
+C03             = -3.77809e-06     +/- 1.432e-07    (3.79%)
+C04             = 1.36819e-07      +/- 5.77e-08     (42.17%)
+C05             = -1.38905e-08     +/- 7.927e-09    (57.07%)
+C06             = 8.01625e-10      +/- 5.536e-10    (69.06%)
+C07             = -2.47932e-11     +/- 2.184e-11    (88.11%)
+C08             = 4.15746e-13      +/- 4.915e-13    (118.2%)
+C09             = -3.50267e-15     +/- 5.866e-15    (167.5%)
+C10             = 1.1229e-17       +/- 2.874e-17    (256%)
+
+
+correlation matrix of the fit parameters:
+
+               C00    C01    C02    C03    C04    C05    C06    C07    C08    C09    C10    
+C00             1.000 
+C01            -0.682  1.000 
+C02             0.192 -0.794  1.000 
+C03             0.778 -0.921  0.556  1.000 
+C04            -0.503  0.942 -0.916 -0.825  1.000 
+C05             0.400 -0.881  0.952  0.715 -0.984  1.000 
+C06            -0.345  0.835 -0.954 -0.644  0.959 -0.994  1.000 
+C07             0.310 -0.800  0.946  0.595 -0.937  0.984 -0.997  1.000 
+C08            -0.286  0.773 -0.936 -0.559  0.917 -0.973  0.992 -0.998  1.000 
+C09             0.268 -0.751  0.926  0.531 -0.901  0.962 -0.985  0.995 -0.999  1.000 
+C10            -0.256  0.734 -0.917 -0.510  0.887 -0.953  0.979 -0.991  0.997 -0.999  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:21:11 2011
+
+
+FIT:    data read from 'Pdep_CcK0c_lmax100_dl0.001_Op2.dat' using 4:2
+        format = x:z
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fK0c(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.37797e+34       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.35125e+16
+
+initial set of free parameter values
+
+k00             = 1
+k01             = 1
+k02             = 1
+k03             = 1
+k04             = 1
+k05             = 1
+k06             = 1
+k07             = 1
+k08             = 1
+k09             = 1
+k10             = 1
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 3.93805e-11
+rel. change during last iteration : -1.78298e-11
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.98445e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.93805e-12
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+k00             = 0.298528         +/- 1.409e-06    (0.0004719%)
+k01             = 0.00511212       +/- 1.283e-06    (0.0251%)
+k02             = 5.20187e-05      +/- 3.298e-07    (0.634%)
+k03             = 6.12054e-07      +/- 5.969e-08    (9.752%)
+k04             = -2.08822e-08     +/- 2.405e-08    (115.2%)
+k05             = 2.78093e-09      +/- 3.304e-09    (118.8%)
+k06             = -1.02215e-10     +/- 2.308e-10    (225.8%)
+k07             = 8.37851e-13      +/- 9.106e-12    (1087%)
+k08             = 4.35452e-14      +/- 2.049e-13    (470.5%)
+k09             = -1.12533e-15     +/- 2.445e-15    (217.3%)
+k10             = 7.94771e-18      +/- 1.198e-17    (150.8%)
+
+
+correlation matrix of the fit parameters:
+
+               k00    k01    k02    k03    k04    k05    k06    k07    k08    k09    k10    
+k00             1.000 
+k01            -0.682  1.000 
+k02             0.192 -0.794  1.000 
+k03             0.778 -0.921  0.556  1.000 
+k04            -0.503  0.942 -0.916 -0.825  1.000 
+k05             0.400 -0.881  0.952  0.715 -0.984  1.000 
+k06            -0.345  0.835 -0.954 -0.644  0.959 -0.994  1.000 
+k07             0.310 -0.800  0.946  0.595 -0.937  0.984 -0.997  1.000 
+k08            -0.286  0.773 -0.936 -0.559  0.917 -0.973  0.992 -0.998  1.000 
+k09             0.268 -0.751  0.926  0.531 -0.901  0.962 -0.985  0.995 -0.999  1.000 
+k10            -0.256  0.734 -0.917 -0.510  0.887 -0.953  0.979 -0.991  0.997 -0.999  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:57 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.20_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f01(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.6115e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A01             = 1
+nu01            = 1
+
+After 36 iterations the fit converged.
+final sum of squares of residuals : 6.74179e-18
+rel. change during last iteration : -9.07267e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.82157e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.32476e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A01             = 2.54749          +/- 9.391e-06    (0.0003686%)
+nu01            = 0.671687         +/- 3.041e-07    (4.528e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A01    nu01   
+A01             1.000 
+nu01            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:57 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.10_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f02(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.28684e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A02             = 1
+nu02            = 1
+
+After 38 iterations the fit converged.
+final sum of squares of residuals : 1.93483e-17
+rel. change during last iteration : -7.72124e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.16813e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.67183e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A02             = 2.45679          +/- 1.591e-05    (0.0006475%)
+nu02            = 0.671685         +/- 5.343e-07    (7.954e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A02    nu02   
+A02             1.000 
+nu02            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:57 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.06_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f03(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.15274e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A03             = 1
+nu03            = 1
+
+After 39 iterations the fit converged.
+final sum of squares of residuals : 7.16357e-18
+rel. change during last iteration : -6.56102e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.97011e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.4702e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A03             = 2.41843          +/- 9.68e-06     (0.0004003%)
+nu03            = 0.671688         +/- 3.302e-07    (4.917e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A03    nu03   
+A03             1.000 
+nu03            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:57 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.05_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f04(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.11881e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A04             = 1
+nu04            = 1
+
+After 39 iterations the fit converged.
+final sum of squares of residuals : 1.87202e-17
+rel. change during last iteration : -7.02501e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.03444e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.45523e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A04             = 2.40853          +/- 1.565e-05    (0.0006497%)
+nu04            = 0.671685         +/- 5.36e-07     (7.98e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A04    nu04   
+A04             1.000 
+nu04            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:57 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.04_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f05(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.08472e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A05             = 1
+nu05            = 1
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 1.26788e-17
+rel. change during last iteration : -9.56986e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.61211e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.372e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A05             = 2.39862          +/- 1.288e-05    (0.0005369%)
+nu05            = 0.671685         +/- 4.43e-07     (6.595e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A05    nu05   
+A05             1.000 
+nu05            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.03_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f06(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.05048e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A06             = 1
+nu06            = 1
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 2.02649e-17
+rel. change during last iteration : -6.29746e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.35936e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.98789e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A06             = 2.38863          +/- 1.628e-05    (0.0006816%)
+nu06            = 0.671685         +/- 5.624e-07    (8.372e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A06    nu06   
+A06             1.000 
+nu06            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.02_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f07(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.01609e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A07             = 1
+nu07            = 1
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 5.11879e-18
+rel. change during last iteration : -9.11812e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.20131e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.7651e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A07             = 2.37863          +/- 8.183e-06    (0.000344%)
+nu07            = 0.671688         +/- 2.838e-07    (4.226e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A07    nu07   
+A07             1.000 
+nu07            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.01_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f08(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.98152e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A08             = 1
+nu08            = 1
+
+After 40 iterations the fit converged.
+final sum of squares of residuals : 5.48234e-18
+rel. change during last iteration : -1.16708e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.34795e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.89046e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A08             = 2.36843          +/- 8.468e-06    (0.0003575%)
+nu08            = 0.671687         +/- 2.95e-07     (4.392e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A08    nu08   
+A08             1.000 
+nu08            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.00_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f09(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.94679e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A09             = 1
+nu09            = 1
+
+After 41 iterations the fit converged.
+final sum of squares of residuals : 4.31007e-18
+rel. change during last iteration : -1.46299e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.85517e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.48623e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A09             = 2.35816          +/- 7.509e-06    (0.0003184%)
+nu09            = 0.671687         +/- 2.627e-07    (3.911e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A09    nu09   
+A09             1.000 
+nu09            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.99_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f10(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.91189e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A10             = 1
+nu10            = 1
+
+After 41 iterations the fit converged.
+final sum of squares of residuals : 3.06935e-18
+rel. change during last iteration : -2.06896e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.2533e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.0584e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A10             = 2.3478           +/- 6.336e-06    (0.0002699%)
+nu10            = 0.671687         +/- 2.227e-07    (3.315e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A10    nu10   
+A10             1.000 
+nu10            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.98_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f11(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.87683e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A11             = 1
+nu11            = 1
+
+After 41 iterations the fit converged.
+final sum of squares of residuals : 6.41197e-18
+rel. change during last iteration : -6.212e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.70215e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.21102e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A11             = 2.33737          +/- 9.158e-06    (0.0003918%)
+nu11            = 0.671688         +/- 3.233e-07    (4.813e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A11    nu11   
+A11             1.000 
+nu11            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.97_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f12(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.84159e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A12             = 1
+nu12            = 1
+
+After 41 iterations the fit converged.
+final sum of squares of residuals : 4.12385e-18
+rel. change during last iteration : -1.95377e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.77096e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.42202e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A12             = 2.32676          +/- 7.345e-06    (0.0003157%)
+nu12            = 0.671686         +/- 2.604e-07    (3.877e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A12    nu12   
+A12             1.000 
+nu12            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.90_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f13(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.59016e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A13             = 1
+nu13            = 1
+
+After 44 iterations the fit converged.
+final sum of squares of residuals : 5.72625e-18
+rel. change during last iteration : -1.24984e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.44361e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.97457e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A13             = 2.24996          +/- 8.655e-06    (0.0003847%)
+nu13            = 0.671687         +/- 3.174e-07    (4.725e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A13    nu13   
+A13             1.000 
+nu13            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.80_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f14(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.21585e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A14             = 1
+nu14            = 1
+
+After 47 iterations the fit converged.
+final sum of squares of residuals : 2.5114e-18
+rel. change during last iteration : -2.55788e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94279e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.66001e-20
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A14             = 2.13048          +/- 5.732e-06    (0.000269%)
+nu14            = 0.671687         +/- 2.22e-07     (3.305e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A14    nu14   
+A14             1.000 
+nu14            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.70_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f15(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.82284e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A15             = 1
+nu15            = 1
+
+After 25 iterations the fit converged.
+final sum of squares of residuals : 4.00769e-18
+rel. change during last iteration : -5.12324e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.71748e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38196e-19
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A15             = 1.99724          +/- 7.24e-06     (0.0003625%)
+nu15            = 0.671686         +/- 2.991e-07    (4.453e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A15    nu15   
+A15             1.000 
+nu15            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.60_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f16(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.41047e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A16             = 1
+nu16            = 1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 7.00639e-17
+rel. change during last iteration : -2.09757e-06
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.55435e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.416e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A16             = 1.84698          +/- 3.027e-05    (0.001639%)
+nu16            = 0.671684         +/- 1.352e-06    (0.0002013%)
+
+
+correlation matrix of the fit parameters:
+
+               A16    nu16   
+A16             1.000 
+nu16            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.55_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f17(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.19703e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A17             = 1
+nu17            = 1
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 1.14036e-16
+rel. change during last iteration : -1.08258e-07
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.983e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.93227e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A17             = 1.76413          +/- 3.862e-05    (0.002189%)
+nu17            = 0.671682         +/- 1.806e-06    (0.0002689%)
+
+
+correlation matrix of the fit parameters:
+
+               A17    nu17   
+A17             1.000 
+nu17            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.50_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f18(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.9789e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A18             = 1
+nu18            = 1
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 1.62963e-16
+rel. change during last iteration : -5.28835e-08
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.37053e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.61942e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A18             = 1.67521          +/- 4.617e-05    (0.002756%)
+nu18            = 0.671681         +/- 2.274e-06    (0.0003385%)
+
+
+correlation matrix of the fit parameters:
+
+               A18    nu18   
+A18             1.000 
+nu18            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.40_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f19(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.53e-06          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A19             = 1
+nu19            = 1
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 2.37473e-16
+rel. change during last iteration : -2.90402e-09
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.8616e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.18873e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A19             = 1.47526          +/- 5.573e-05    (0.003777%)
+nu19            = 0.671678         +/- 3.117e-06    (0.000464%)
+
+
+correlation matrix of the fit parameters:
+
+               A19    nu19   
+A19             1.000 
+nu19            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.30_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f20(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.06951e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A20             = 1
+nu20            = 1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 2.33244e-16
+rel. change during last iteration : -1.533e-06
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.836e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.04289e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A20             = 1.23651          +/- 5.523e-05    (0.004466%)
+nu20            = 0.671676         +/- 3.685e-06    (0.0005486%)
+
+
+correlation matrix of the fit parameters:
+
+               A20    nu20   
+A20             1.000 
+nu20            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:54:58 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.20_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 1.00000e-05]
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f21(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.12543e-07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.4853e-05
+
+initial set of free parameter values
+
+A21             = 1
+nu21            = 1
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 7.72833e-17
+rel. change during last iteration : -2.33692e-07
+
+degrees of freedom    (FIT_NDF)                        : 29
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.63246e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.66494e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A21             = 0.94045          +/- 3.179e-05    (0.003381%)
+nu21            = 0.671681         +/- 2.789e-06    (0.0004153%)
+
+
+correlation matrix of the fit parameters:
+
+               A21    nu21   
+A21             1.000 
+nu21            0.998  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.20_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f01(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.38503e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A01             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 9.48918e-21
+rel. change during last iteration : -1.05604e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.35642e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.89784e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A01             = 2.54753          +/- 2.668e-06    (0.0001047%)
+
+
+correlation matrix of the fit parameters:
+
+               A01    
+A01             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.10_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f02(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.65905e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A02             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 9.18094e-21
+rel. change during last iteration : -9.6737e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.28508e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.83619e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A02             = 2.4569           +/- 2.624e-06    (0.0001068%)
+
+
+correlation matrix of the fit parameters:
+
+               A02    
+A02             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.06_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f03(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.3644e-10        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A03             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.2421e-21
+rel. change during last iteration : -1.606e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.23793e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.04842e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A03             = 2.41846          +/- 1.983e-06    (8.199e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A03    
+A03             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.05_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f04(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.29037e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A04             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.45631e-21
+rel. change during last iteration : -1.52166e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.30343e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.09126e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A04             = 2.40864          +/- 2.023e-06    (8.399e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A04    
+A04             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.04_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f05(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.21621e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A05             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.48475e-21
+rel. change during last iteration : -3.29461e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.22924e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.9695e-22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A05             = 2.39873          +/- 1.365e-06    (5.692e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A05    
+A05             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.03_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f06(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.14192e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A06             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3.78495e-21
+rel. change during last iteration : -2.13206e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.75135e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.56991e-22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A06             = 2.38874          +/- 1.685e-06    (7.054e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A06    
+A06             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.02_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f07(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.06751e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A07             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.1405e-21
+rel. change during last iteration : -1.29516e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.50443e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.2281e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A07             = 2.37865          +/- 2.146e-06    (9.023e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A07    
+A07             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.01_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f08(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.99297e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A08             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.18303e-20
+rel. change during last iteration : -6.62378e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.86422e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.36607e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A08             = 2.36847          +/- 2.979e-06    (0.0001258%)
+
+
+correlation matrix of the fit parameters:
+
+               A08    
+A08             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc1.00_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f09(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.91831e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A09             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8.00711e-21
+rel. change during last iteration : -9.64094e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.00178e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.60142e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A09             = 2.3582           +/- 2.451e-06    (0.0001039%)
+
+
+correlation matrix of the fit parameters:
+
+               A09    
+A09             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.99_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f10(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.84354e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A10             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.40484e-21
+rel. change during last iteration : -1.7257e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.96811e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.80968e-22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A10             = 2.34784          +/- 1.818e-06    (7.742e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A10    
+A10             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.98_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f11(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.76865e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A11             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.81977e-21
+rel. change during last iteration : -1.28596e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.41168e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.16395e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A11             = 2.33738          +/- 2.089e-06    (8.939e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A11    
+A11             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.97_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f12(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.69365e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A12             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.25105e-21
+rel. change during last iteration : -1.40279e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.24069e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.05021e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A12             = 2.32682          +/- 1.985e-06    (8.53e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A12    
+A12             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.90_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f13(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.166e-10         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A13             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.99591e-21
+rel. change during last iteration : -1.09044e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.46292e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.19918e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A13             = 2.25002          +/- 2.121e-06    (9.426e-05%)
+
+
+correlation matrix of the fit parameters:
+
+               A13    
+A13             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.80_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f14(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.40752e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A14             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8.01184e-21
+rel. change during last iteration : -6.67495e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.00296e-11
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.60237e-21
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A14             = 2.13051          +/- 2.452e-06    (0.0001151%)
+
+
+correlation matrix of the fit parameters:
+
+               A14    
+A14             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.70_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f15(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.65221e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A15             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.59881e-19
+rel. change during last iteration : -9.05073e-09
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.03276e-10
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.19762e-20
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A15             = 1.99738          +/- 1.857e-05    (0.0009299%)
+
+
+correlation matrix of the fit parameters:
+
+               A15    
+A15             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.60_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f16(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.91508e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A16             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8.12973e-18
+rel. change during last iteration : -3.70264e-10
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.27513e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.62595e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A16             = 1.84752          +/- 7.809e-05    (0.004227%)
+
+
+correlation matrix of the fit parameters:
+
+               A16    
+A16             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.55_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f17(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.55964e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A17             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.40579e-17
+rel. change during last iteration : -1.73695e-10
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.67678e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.81159e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A17             = 1.76484          +/- 0.0001027    (0.005819%)
+
+
+correlation matrix of the fit parameters:
+
+               A17    
+A17             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.50_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f18(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.21853e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A18             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.94126e-17
+rel. change during last iteration : -9.83732e-11
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.97041e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.88252e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A18             = 1.67605          +/- 0.0001207    (0.0072%)
+
+
+correlation matrix of the fit parameters:
+
+               A18    
+A18             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.40_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f19(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.0469e-11        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A19             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.85044e-17
+rel. change during last iteration : -3.32757e-11
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.38765e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.70089e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A19             = 1.47624          +/- 0.0001462    (0.009905%)
+
+
+correlation matrix of the fit parameters:
+
+               A19    
+A19             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.30_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f20(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.50378e-11       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A20             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.80149e-17
+rel. change during last iteration : -8.41636e-12
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.36706e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.60297e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A20             = 1.23749          +/- 0.000145     (0.01171%)
+
+
+correlation matrix of the fit parameters:
+
+               A20    
+A20             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 22:57:43 2011
+
+
+FIT:    data read from '3Dvlt_macro_Tv_Cc0.20_lmax100_dl0.001_Op2.dat' using 2:6
+        format = x:z
+	y range restricted to [0.00000 : 3.60000e-08]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f21(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.28539e-13       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 6.66603e-06
+
+initial set of free parameter values
+
+A21             = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8.8362e-18
+rel. change during last iteration : -1.85719e-12
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.32938e-09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.76724e-18
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A21             = 0.940986         +/- 8.142e-05    (0.008652%)
+
+
+correlation matrix of the fit parameters:
+
+               A21    
+A21             1.000 
+
+
+*******************************************************************************
+Sun Oct 30 23:08:08 2011
+
+
+FIT:    data read from 'Pdep_Cc_lmax100_dl0.001_Op2.dat' using 3:1
+        format = x:z
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fCc(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.78489e+34       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.41276e+16
+
+initial set of free parameter values
+
+C00             = 1
+C01             = 1
+C02             = 1
+C03             = 1
+C04             = 1
+C05             = 1
+C06             = 1
+C07             = 1
+C08             = 1
+C09             = 1
+C10             = 1
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 2.83575e-10
+rel. change during last iteration : -7.73454e-12
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.32517e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.83575e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+C00             = 1.10651          +/- 5.593e-06    (0.0005055%)
+C01             = -0.0299681       +/- 4.174e-06    (0.01393%)
+C02             = 0.000379638      +/- 6.49e-07     (0.1709%)
+C03             = -4.10578e-06     +/- 3.478e-07    (8.471%)
+C04             = 1.58975e-07      +/- 9.834e-08    (61.86%)
+C05             = -1.45472e-08     +/- 1.179e-08    (81.04%)
+C06             = 7.6648e-10       +/- 7.636e-10    (99.63%)
+C07             = -2.15799e-11     +/- 2.866e-11    (132.8%)
+C08             = 3.19691e-13      +/- 6.214e-13    (194.4%)
+C09             = -2.19725e-15     +/- 7.208e-15    (328%)
+C10             = 4.42628e-18      +/- 3.452e-17    (779.9%)
+
+
+correlation matrix of the fit parameters:
+
+               C00    C01    C02    C03    C04    C05    C06    C07    C08    C09    C10    
+C00             1.000 
+C01            -0.813  1.000 
+C02             0.055 -0.563  1.000 
+C03             0.853 -0.965  0.406  1.000 
+C04            -0.722  0.964 -0.649 -0.953  1.000 
+C05             0.648 -0.930  0.725  0.902 -0.990  1.000 
+C06            -0.600  0.899 -0.759 -0.861  0.973 -0.996  1.000 
+C07             0.566 -0.872  0.775  0.829 -0.955  0.987 -0.998  1.000 
+C08            -0.540  0.850 -0.783 -0.803  0.940 -0.978  0.993 -0.999  1.000 
+C09             0.521 -0.831  0.786  0.782 -0.926  0.968 -0.987  0.996 -0.999  1.000 
+C10            -0.506  0.816 -0.787 -0.765  0.914 -0.960  0.982 -0.992  0.997 -0.999  1.000 
+
+
+*******************************************************************************
+Sun Oct 30 23:08:19 2011
+
+
+FIT:    data read from 'Pdep_CcK0c_lmax100_dl0.001_Op2.dat' using 4:2
+        format = x:z
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fK0c(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.78489e+34       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.41276e+16
+
+initial set of free parameter values
+
+k00             = 1
+k01             = 1
+k02             = 1
+k03             = 1
+k04             = 1
+k05             = 1
+k06             = 1
+k07             = 1
+k08             = 1
+k09             = 1
+k10             = 1
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 4.99693e-11
+rel. change during last iteration : -2.62688e-12
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.23538e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.99693e-12
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+k00             = 0.29536          +/- 2.348e-06    (0.0007949%)
+k01             = 0.00508413       +/- 1.752e-06    (0.03446%)
+k02             = 5.15885e-05      +/- 2.724e-07    (0.5281%)
+k03             = 6.69186e-07      +/- 1.46e-07     (21.82%)
+k04             = -2.74623e-08     +/- 4.128e-08    (150.3%)
+k05             = 2.92854e-09      +/- 4.949e-09    (169%)
+k06             = -8.80012e-11     +/- 3.206e-10    (364.3%)
+k07             = -1.93461e-13     +/- 1.203e-11    (6218%)
+k08             = 7.13137e-14      +/- 2.609e-13    (365.8%)
+k09             = -1.47121e-15     +/- 3.026e-15    (205.7%)
+k10             = 9.60439e-18      +/- 1.449e-17    (150.9%)
+
+
+correlation matrix of the fit parameters:
+
+               k00    k01    k02    k03    k04    k05    k06    k07    k08    k09    k10    
+k00             1.000 
+k01            -0.813  1.000 
+k02             0.055 -0.563  1.000 
+k03             0.853 -0.965  0.406  1.000 
+k04            -0.722  0.964 -0.649 -0.953  1.000 
+k05             0.648 -0.930  0.725  0.902 -0.990  1.000 
+k06            -0.600  0.899 -0.759 -0.861  0.973 -0.996  1.000 
+k07             0.566 -0.872  0.775  0.829 -0.955  0.987 -0.998  1.000 
+k08            -0.540  0.850 -0.783 -0.803  0.940 -0.978  0.993 -0.999  1.000 
+k09             0.521 -0.831  0.786  0.782 -0.926  0.968 -0.987  0.996 -0.999  1.000 
+k10            -0.506  0.816 -0.787 -0.765  0.914 -0.960  0.982 -0.992  0.997 -0.999  1.000 
+
+
+*******************************************************************************
+Tue Nov  1 18:11:09 2011
+
+
+FIT:    data read from 'Pdep_Cc_lmax100_dl0.001_Op2.dat' using 3:1
+        format = x:z
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fCc(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.78489e+34       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.41276e+16
+
+initial set of free parameter values
+
+C00             = 1
+C01             = 1
+C02             = 1
+C03             = 1
+C04             = 1
+C05             = 1
+C06             = 1
+C07             = 1
+C08             = 1
+C09             = 1
+C10             = 1
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 2.83575e-10
+rel. change during last iteration : -7.73454e-12
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.32517e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.83575e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+C00             = 1.10651          +/- 5.593e-06    (0.0005055%)
+C01             = -0.0299681       +/- 4.174e-06    (0.01393%)
+C02             = 0.000379638      +/- 6.49e-07     (0.1709%)
+C03             = -4.10578e-06     +/- 3.478e-07    (8.471%)
+C04             = 1.58975e-07      +/- 9.834e-08    (61.86%)
+C05             = -1.45472e-08     +/- 1.179e-08    (81.04%)
+C06             = 7.6648e-10       +/- 7.636e-10    (99.63%)
+C07             = -2.15799e-11     +/- 2.866e-11    (132.8%)
+C08             = 3.19691e-13      +/- 6.214e-13    (194.4%)
+C09             = -2.19725e-15     +/- 7.208e-15    (328%)
+C10             = 4.42628e-18      +/- 3.452e-17    (779.9%)
+
+
+correlation matrix of the fit parameters:
+
+               C00    C01    C02    C03    C04    C05    C06    C07    C08    C09    C10    
+C00             1.000 
+C01            -0.813  1.000 
+C02             0.055 -0.563  1.000 
+C03             0.853 -0.965  0.406  1.000 
+C04            -0.722  0.964 -0.649 -0.953  1.000 
+C05             0.648 -0.930  0.725  0.902 -0.990  1.000 
+C06            -0.600  0.899 -0.759 -0.861  0.973 -0.996  1.000 
+C07             0.566 -0.872  0.775  0.829 -0.955  0.987 -0.998  1.000 
+C08            -0.540  0.850 -0.783 -0.803  0.940 -0.978  0.993 -0.999  1.000 
+C09             0.521 -0.831  0.786  0.782 -0.926  0.968 -0.987  0.996 -0.999  1.000 
+C10            -0.506  0.816 -0.787 -0.765  0.914 -0.960  0.982 -0.992  0.997 -0.999  1.000 
+
+
+*******************************************************************************
+Tue Nov  1 18:13:25 2011
+
+
+FIT:    data read from 'Pdep_Cc_lmax100_dl0.001_Op2.dat' using 3:1
+        format = x:z
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fCc(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.83575e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.41276e+16
+
+initial set of free parameter values
+
+C00             = 1.10651
+C01             = -0.0299681
+C02             = 0.000379638
+C03             = -4.10578e-06
+C04             = 1.58975e-07
+C05             = -1.45472e-08
+C06             = 7.6648e-10
+C07             = -2.15799e-11
+C08             = 3.19691e-13
+C09             = -2.19725e-15
+C10             = 4.42628e-18
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.83575e-10
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.32517e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.83575e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+C00             = 1.10651          +/- 5.593e-06    (0.0005055%)
+C01             = -0.0299681       +/- 4.174e-06    (0.01393%)
+C02             = 0.000379638      +/- 6.49e-07     (0.1709%)
+C03             = -4.10578e-06     +/- 3.478e-07    (8.471%)
+C04             = 1.58975e-07      +/- 9.834e-08    (61.86%)
+C05             = -1.45472e-08     +/- 1.179e-08    (81.04%)
+C06             = 7.6648e-10       +/- 7.636e-10    (99.63%)
+C07             = -2.15799e-11     +/- 2.866e-11    (132.8%)
+C08             = 3.19691e-13      +/- 6.214e-13    (194.4%)
+C09             = -2.19725e-15     +/- 7.208e-15    (328%)
+C10             = 4.42628e-18      +/- 3.452e-17    (779.9%)
+
+
+correlation matrix of the fit parameters:
+
+               C00    C01    C02    C03    C04    C05    C06    C07    C08    C09    C10    
+C00             1.000 
+C01            -0.813  1.000 
+C02             0.055 -0.563  1.000 
+C03             0.853 -0.965  0.406  1.000 
+C04            -0.722  0.964 -0.649 -0.953  1.000 
+C05             0.648 -0.930  0.725  0.902 -0.990  1.000 
+C06            -0.600  0.899 -0.759 -0.861  0.973 -0.996  1.000 
+C07             0.566 -0.872  0.775  0.829 -0.955  0.987 -0.998  1.000 
+C08            -0.540  0.850 -0.783 -0.803  0.940 -0.978  0.993 -0.999  1.000 
+C09             0.521 -0.831  0.786  0.782 -0.926  0.968 -0.987  0.996 -0.999  1.000 
+C10            -0.506  0.816 -0.787 -0.765  0.914 -0.960  0.982 -0.992  0.997 -0.999  1.000 
+
+
+*******************************************************************************
+Tue Nov  1 18:26:05 2011
+
+
+FIT:    data read from 'Pdep_Cc_lmax100_dl0.001_Op2.dat' using 3:1
+        format = x:z
+        #datapoints = 21
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fCc(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.83575e-10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.41276e+16
+
+initial set of free parameter values
+
+C00             = 1.10651
+C01             = -0.0299681
+C02             = 0.000379638
+C03             = -4.10578e-06
+C04             = 1.58975e-07
+C05             = -1.45472e-08
+C06             = 7.6648e-10
+C07             = -2.15799e-11
+C08             = 3.19691e-13
+C09             = -2.19725e-15
+C10             = 4.42628e-18
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.83575e-10
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.32517e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.83575e-11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+C00             = 1.10651          +/- 5.593e-06    (0.0005055%)
+C01             = -0.0299681       +/- 4.174e-06    (0.01393%)
+C02             = 0.000379638      +/- 6.49e-07     (0.1709%)
+C03             = -4.10578e-06     +/- 3.478e-07    (8.471%)
+C04             = 1.58975e-07      +/- 9.834e-08    (61.86%)
+C05             = -1.45472e-08     +/- 1.179e-08    (81.04%)
+C06             = 7.6648e-10       +/- 7.636e-10    (99.63%)
+C07             = -2.15799e-11     +/- 2.866e-11    (132.8%)
+C08             = 3.19691e-13      +/- 6.214e-13    (194.4%)
+C09             = -2.19725e-15     +/- 7.208e-15    (328%)
+C10             = 4.42628e-18      +/- 3.452e-17    (779.9%)
+
+
+correlation matrix of the fit parameters:
+
+               C00    C01    C02    C03    C04    C05    C06    C07    C08    C09    C10    
+C00             1.000 
+C01            -0.813  1.000 
+C02             0.055 -0.563  1.000 
+C03             0.853 -0.965  0.406  1.000 
+C04            -0.722  0.964 -0.649 -0.953  1.000 
+C05             0.648 -0.930  0.725  0.902 -0.990  1.000 
+C06            -0.600  0.899 -0.759 -0.861  0.973 -0.996  1.000 
+C07             0.566 -0.872  0.775  0.829 -0.955  0.987 -0.998  1.000 
+C08            -0.540  0.850 -0.783 -0.803  0.940 -0.978  0.993 -0.999  1.000 
+C09             0.521 -0.831  0.786  0.782 -0.926  0.968 -0.987  0.996 -0.999  1.000 
+C10            -0.506  0.816 -0.787 -0.765  0.914 -0.960  0.982 -0.992  0.997 -0.999  1.000 

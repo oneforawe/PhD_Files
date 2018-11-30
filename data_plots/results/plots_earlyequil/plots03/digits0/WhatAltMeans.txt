@@ -1,0 +1,10 @@
+Using this
+		DeDK0plus = plus.thrmv[2]/DK0-estimated.thrmv[2]/DK0;
+		DeDK0minus = estimated.thrmv[2]/DK0-minus.thrmv[2]/DK0;
+		DeDK0 = (DeDK0plus+DeDK0minus)/2;
+		D2eDK02 = DeDK0plus/DK0-DeDK0minus/DK0;
+instead of this
+		DeDK0plus = (plus.thrmv[2]-estimated.thrmv[2])/DK0;
+		DeDK0minus = (estimated.thrmv[2]-minus.thrmv[2])/DK0;
+		DeDK0 = (DeDK0plus+DeDK0minus)/2;
+		D2eDK02 = (DeDK0plus-DeDK0minus)/DK0;

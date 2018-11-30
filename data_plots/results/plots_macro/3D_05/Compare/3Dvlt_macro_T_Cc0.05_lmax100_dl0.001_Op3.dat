@@ -1,0 +1,67 @@
+# Filename: 3Dvlt_macro_T_Cc0.05_lmax100_dl0.001_Op3.dat
+# Source: 3Dvlt_macro.c
+# Source version: 9 (2011 Aug 17 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063, B=204.013123190187599221, THETA=0.6918
+# Parameter values: N=3, Cc=0.05, K0c=5.04213, lmax=100, lsteps=100000, (dl=0.001), lpts=100001, ldatamax=10, a0=1, a03=1, a06=1
+# Option values: Op=3
+T/Tc	1-T/Tc	l	K	K/K0	Kr/K0	G	e
+0.205672	0.794328	100	6.58925e+44	2.6878e+43	0.99988	0	-7.39156e-08
+0.369043	0.630957	100	3.57793e+44	2.61875e+43	0.974195	0	-2.89459e-05
+0.498813	0.501187	100	2.32481e+44	2.29991e+43	0.855586	0	-0.000245197
+0.601893	0.398107	100	1.53897e+44	1.83711e+43	0.683421	0	-0.000793421
+0.683772	0.316228	100	1.03024e+44	1.39713e+43	0.519743	0	-0.00173854
+0.748811	0.251189	100	6.9874e+43	1.0377e+43	0.386034	0	-0.00311791
+0.800474	0.199526	100	4.74566e+43	7.53407e+42	0.280273	0	-0.00498139
+0.841511	0.158489	100	3.10473e+43	5.18166e+42	0.192762	0	-0.00745488
+0.874107	0.125893	100	1.63237e+43	2.82988e+42	0.105274	0	-0.0109992
+0.9	0.1	100	nan	nan	nan	nan	nan
+0.920567	0.0794328	100	nan	nan	nan	nan	nan
+0.936904	0.0630957	100	nan	nan	nan	nan	nan
+0.949881	0.0501187	100	nan	nan	nan	nan	nan
+0.960189	0.0398107	100	nan	nan	nan	nan	nan
+0.968377	0.0316228	100	nan	nan	nan	nan	nan
+0.974881	0.0251189	100	nan	nan	nan	nan	nan
+0.980047	0.0199526	100	nan	nan	nan	nan	nan
+0.984151	0.0158489	100	nan	nan	nan	nan	nan
+0.987411	0.0125893	100	nan	nan	nan	nan	nan
+0.99	0.01	100	nan	nan	nan	nan	nan
+0.992057	0.00794328	100	nan	nan	nan	nan	nan
+0.99369	0.00630957	100	nan	nan	nan	nan	nan
+0.994988	0.00501187	100	nan	nan	nan	nan	nan
+0.996019	0.00398107	100	nan	nan	nan	nan	nan
+0.996838	0.00316228	100	nan	nan	nan	nan	nan
+0.997488	0.00251189	100	nan	nan	nan	nan	nan
+0.998005	0.00199526	100	nan	nan	nan	nan	nan
+0.998415	0.00158489	100	nan	nan	nan	nan	nan
+0.998741	0.00125893	100	nan	nan	nan	nan	nan
+0.999	0.001	100	nan	nan	nan	nan	nan
+1.00126	-0.00125893	100	nan	nan	nan	nan	nan
+1.00158	-0.00158489	100	nan	nan	nan	nan	nan
+1.002	-0.00199526	100	nan	nan	nan	nan	nan
+1.00251	-0.00251189	100	nan	nan	nan	nan	nan
+1.00316	-0.00316228	100	nan	nan	nan	nan	nan
+1.00398	-0.00398107	100	nan	nan	nan	nan	nan
+1.00501	-0.00501187	100	nan	nan	nan	nan	nan
+1.00631	-0.00630957	100	nan	nan	nan	nan	nan
+1.00794	-0.00794328	100	nan	nan	nan	nan	nan
+1.01	-0.01	100	nan	nan	nan	nan	nan
+1.01259	-0.0125893	100	nan	nan	nan	nan	nan
+1.01585	-0.0158489	100	nan	nan	nan	nan	nan
+1.01995	-0.0199526	100	nan	nan	nan	nan	nan
+1.02512	-0.0251189	100	nan	nan	nan	nan	nan
+1.03162	-0.0316228	100	nan	nan	nan	nan	nan
+1.03981	-0.0398107	100	nan	nan	nan	nan	nan
+1.05012	-0.0501187	100	nan	nan	nan	nan	nan
+1.0631	-0.0630957	100	nan	nan	nan	nan	nan
+1.07943	-0.0794328	100	nan	nan	nan	nan	nan
+1.1	-0.1	100	nan	nan	nan	nan	nan
+1.12589	-0.125893	100	nan	nan	nan	nan	nan
+1.15849	-0.158489	100	nan	nan	nan	nan	nan
+1.19953	-0.199526	100	nan	nan	nan	nan	nan
+1.25119	-0.251189	100	nan	nan	nan	nan	nan
+1.31623	-0.316228	100	nan	nan	nan	nan	nan
+1.39811	-0.398107	100	nan	nan	nan	nan	nan
+1.50119	-0.501187	100	nan	nan	nan	nan	nan
+1.63096	-0.630957	100	nan	nan	nan	nan	nan
+1.79433	-0.794328	100	nan	nan	nan	nan	nan
+2	-1	100	nan	nan	nan	nan	nan

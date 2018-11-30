@@ -1,0 +1,14 @@
+set terminal png
+set output "plot_KrK0versusT.png"
+set title "Renormalized coupling constant fraction (Kr/K0) vs Temperature (T/Tc) \n with different length-scale cuts-off"
+set ylabel "Kr/K0"
+set xlabel "T/Tc"
+set xrange [0:2]
+set pointsize 0.5
+set grid
+set key left bottom box
+plot "KrK0versusT_Dexp0.dat" using 1:8  with linespoints title " l_max = 0", \
+     "KrK0versusT_Dexp1.dat" using 1:8  with linespoints title " l_max = 1", \
+     "KrK0versusT_Dexp2.dat" using 1:8  with linespoints title " l_max = 2", \
+     "KrK0versusT_Dexp3.dat" using 1:8  with linespoints title " l_max = 3", \
+     "KrK0versusT_Dexp100.dat" using 1:8 with linespoints title " l_max = 100"

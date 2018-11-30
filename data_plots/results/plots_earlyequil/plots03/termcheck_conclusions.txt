@@ -1,0 +1,31 @@
+termcheck_conclusions.txt
+
+cp01 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( (T*alpha-2)*alpha );
+cp02 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( -T*DalphaDT );
+cp03 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( 2*(T*alpha-1)*Da0DT/a0 );
+cp04 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( T*(Da0DT*Da0DT)/(a0*a0) );
+cp05 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( -T*D2a0DT2/a0 );
+cp06 = -R*((6.65e3)/(rho*a0*a0*a0))*( (T*alpha)*K0*DeDK0 );
+cp07 = -R*((6.65e3)/(rho*a0*a0*a0))*( (2*T*Da0DT/a0)*K0*DeDK0 );
+cp08 = -R*((6.65e3)/(rho*a0*a0*a0))*( K0*K0*D2eDK02 );
+cp09 = -T*P*(4.005e-4/rho)*(alpha*alpha);
+cp10 = -T*P*(4.005e-4/rho)*(-DalphaDT);
+
+
+The most important term is
+cp08 = -R*((6.65e3)/(rho*a0*a0*a0))*( K0*K0*D2eDK02 );
+
+
+The next important terms, which are mostly negligible but become slightly more important with increasing pressure, are
+cp02 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( -T*DalphaDT );
+cp07 = -R*((6.65e3)/(rho*a0*a0*a0))*( (2*T*Da0DT/a0)*K0*DeDK0 );
+cp06 = -R*((6.65e3)/(rho*a0*a0*a0))*( (T*alpha)*K0*DeDK0 );
+cp05 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( -T*D2a0DT2/a0 );
+cp01 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( (T*alpha-2)*alpha );
+cp03 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( 2*(T*alpha-1)*Da0DT/a0 );
+
+
+The next terms are completely negligible
+cp04 = -R*estimated.thrmv[2]*((6.65e3)/(rho*a0*a0*a0))*T*( T*(Da0DT*Da0DT)/(a0*a0) );
+cp09 = -T*P*(4.005e-4/rho)*(alpha*alpha);
+cp10 = -T*P*(4.005e-4/rho)*(-DalphaDT);

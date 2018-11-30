@@ -1,0 +1,15 @@
+set terminal png
+set output "plot_KrK0versusl.png"
+set title "Renormalized coupling constant fraction (Kr/K0) vs Length scale (l) \n at various temperatures"
+set ylabel "Kr/K0"
+set xlabel "l"
+set logscale xy
+set grid
+set key left bottom box
+plot "KrK0versusl0.dat" with linespoints title "", \
+     "KrK0versusl1.dat" with linespoints title "", \
+     "KrK0versusl2.dat" with linespoints title "", \
+     "KrK0versusl3.dat" with linespoints title "", \
+     "KrK0versusl4.dat" with linespoints title "", \
+     "KrK0versusl5.dat" with linespoints title "", \
+     "KrK0versusl6.dat" with linespoints title ""

@@ -1,0 +1,19 @@
+#filename: plot_3D_Fversusl_B_linlin
+reset
+set terminal png
+set output "plot_3D_Fversusl_B_linlin.png"
+set title "Free energy (F) vs Length scale (l) in 3D \n at various temperatures"
+set ylabel "F"
+set xlabel "l"
+set xrange [0:10]
+set yrange [-10:0]
+set grid
+set key right bottom box title "Let tv = 1-T/Tc"
+plot "ring1_B_i00.dat" using 3:7 with linespoints title " tv = e-0.1 ", \
+     "ring1_B_i09.dat" using 3:7 with linespoints title " tv = e-1   ", \
+     "ring1_B_i19.dat" using 3:7 with linespoints title " tv = e-2   ", \
+     "ring1_B_i29.dat" using 3:7 with linespoints title " tv = e-3   ", \
+     "ring1_B_i30.dat" using 3:7 with linespoints title " tv = -e-2.9", \
+     "ring1_B_i39.dat" using 3:7 with linespoints title " tv = -e-2  ", \
+     "ring1_B_i49.dat" using 3:7 with linespoints title " tv = -e-1  ", \
+     "ring1_B_i59.dat" using 3:7 with linespoints title " tv = -e-0  "

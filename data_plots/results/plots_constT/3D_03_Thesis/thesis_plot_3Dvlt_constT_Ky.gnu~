@@ -1,0 +1,75 @@
+#filename: thesis_plot_3Dvlt_constT_Ky.gnu
+reset
+set terminal postscript color eps enhanced
+set output 'thesis_plot_3Dvlt_constT_Ky.ps'
+set size 0.85,0.85
+##set size 1.00,0.85
+#set size 0.85,1.20
+
+#set samples 1000000
+
+set title "^4He Fugacity {/Times-Italic y} vs Coupling Parameter {/Times-Italic K}"
+
+set ylabel "{/Times-Italic y} (unitless)"
+set xlabel "{/Times-Italic K} (unitless)"
+
+
+Kstar = 0.387508189712343409
+ystar = 0.0624210054576019
+
+Kstar1 = 4.146766416946759293
+ystar1 = 0.0058331356032128735
+
+
+#set xrange [-0.1:5.0]
+#set yrange [-0.01:0.26]
+
+set xrange [-0.1:35.0]
+set yrange [-0.01:0.26]
+
+#set xrange [-0.1:3.0]
+#set yrange [-0.01:0.1]
+
+#set xrange [Kstar-0.25:Kstar+0.25]
+#set yrange [ystar-0.025:ystar+0.025]
+
+
+set grid
+#####set key at graph 0.85,-0.21 box width -5 height 0.5 spacing 1.6 title " Finding {/Times-Italic K}@^{{} {/Times-Italic l}0^{^{}}}_{c  }, given a {/Times-Italic C}_c^ "
+##set key at graph 0.875,-0.21 box width -5 height 0.5 spacing 1.6 title " Finding {/Times-Italic K}@^{{} {/Times-Italic l}0^{^{}}}_{c  }, given a {/Times-Italic C}_c^ "
+#set key outside below center box width -5 height 0.5 spacing 1.2 title " Finding {/Times-Italic K}_{0c}, given a {/Times-Italic C}@_c^ "
+#####set bmargin 9.7
+
+set rmargin 5
+##set key outside right
+#set bmargin 20
+#set key outside below
+set key off
+
+set pointsize 0.4
+#set pointsize 0.5
+#set pointsize 0.125
+
+PISQ = 9.86960440108935861883
+PICU = 31.00627668029981620634
+A3 = 4.0*PICU/3.0
+
+
+plot '3Dvlt_constT_1.010_Cc1.10_lmax10_dl0.001_Op1.dat' using 4:5 with lines ls 2 lc rgb "black"     title "(dl const)", \
+     '3Dvlt_constT_1.005_Cc1.10_lmax10_dl0.001_Op1.dat' using 4:5 with lines ls 2 lc rgb "black"     title "(dl const)", \
+     '3Dvlt_constT_1.000_Cc1.10_lmax10_dl0.001_Op1.dat' using 4:5 with lines ls 2 lc rgb "black"     title "(dl const)", \
+     '3Dvlt_constT_0.500_Cc1.10_lmax10_dl0.001_Op1.dat' using 4:5 with lines ls 2 lc rgb "black"     title "(dl const)", \
+     '3Dvlt_constT_0.100_Cc1.10_lmax10_dl0.001_Op1.dat' using 4:5 with lines ls 2 lc rgb "black"     title "(dl const)", \
+     '3Dvlt_constT_0.050_Cc1.10_lmax10_dl0.001_Op1.dat' using 4:5 with lines ls 2 lc rgb "black"     title "(dl const)", \
+     '3Dvlt_constT_0.020_Cc1.10_lmax10_dl0.001_Op1.dat' using 4:5 with lines ls 2 lc rgb "black"     title "(dl const)", \
+     '3Dvlt_constT_0.017_Cc1.10_lmax10_dl0.001_Op1.dat' using 4:5 with lines ls 2 lc rgb "black"     title "(dl const)", \
+     '3Dvlt_K0cFind3_Plot_Op2134_K0.388_y0.062_step11000000.dat' using 2:3 with lines ls 1 lc rgb "red"     title "(dl const)", \
+     '3Dvlt_K0cFind3_Plot_Op2122_K0.388_y0.062_step4000000.dat'  using 2:3 with lines ls 1 lc rgb "blue"    title "(dl const)", \
+     '3Dvlt_K0cFind3_Plot_Op2231_K0.388_y0.062_step2000000.dat'  using 2:3 with lines ls 1 lc rgb "green"   title "(dl const)", \
+     '3Dvlt_K0cFind3_Plot_Op2221_K0.388_y0.062_step1500000.dat'  using 2:3 with lines ls 1 lc rgb "magenta" title "(dl const)", \
+     exp(-PISQ*0.40*x) lt 2 lc rgb "orange" notitle, \
+     exp(-PISQ*1.10*x) lt 2 lc rgb "purple" notitle, \
+     "<echo 0.387508189712343409 0.0624210054576019" with points ls 7 lc rgb "black" title "Fixed pts", \
+     "<echo 4.146766416946759293 0.0058331356032128735" with points ls 7 lc rgb "black" notitle
+
+

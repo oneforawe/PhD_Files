@@ -1,0 +1,15 @@
+set terminal png
+set output "plot_Kversusl.png"
+set title "Coupling constant (K) vs Length scale (l) \n at various temperatures"
+set ylabel "K"
+set xlabel "l"
+set logscale xy
+set grid
+set key left top box
+plot "Kversusl0.dat" with linespoints title " tv = e-8", \
+     "Kversusl1.dat" with linespoints title "tv = e-7", \
+     "Kversusl2.dat" with linespoints title "tv = e-6", \
+     "Kversusl3.dat" with linespoints title "tv = e-5", \
+     "Kversusl4.dat" with linespoints title "tv = e-4", \
+     "Kversusl5.dat" with linespoints title "tv = e-3", \
+     "Kversusl6.dat" with linespoints title "tv = e-2"

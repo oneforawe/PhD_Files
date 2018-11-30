@@ -1,0 +1,52 @@
+#filename: plot_fit_Pdep_CcK0c.gnu
+reset
+set terminal postscript color eps enhanced
+set output 'plot_fit_Pdep_CcK0c.ps'
+#set size 0.85,0.85
+set size 0.85,0.65
+
+set title "^4He Critical Pair Parameters vs Pressure {/Times-Italic P}"
+
+set ylabel "{/Times-Italic C}_c and {/Times-Italic K}@^{{} {/Times-Italic l}0^{^{}}}_{c  } (unitless)"
+set xlabel "{/Times-Italic P} (bar)"
+set xrange [0:30]
+#set xrange [-1:30]
+#set yrange [0:3e-5]
+#set grid
+set key inside right box width -5 height 0.5 spacing 1.6 title " Vortex loop theory^{} \n calculation fits "
+#set key outside right box width -20 height 0.5 spacing 1.2 title " Calculated from {/CM-Typewriter vlt\\_ThermStates.c} \n Fit: {/Symbol-Oblique r}_s / {/Symbol-Oblique r} = {/Times-Italic A}{/Symbol \242}{/Symbol-Oblique t}^{/Symbol-Oblique n} \n {/Symbol-Oblique n} = 0.6716883522798452"
+#set rmargin 35
+
+#Defining the Cc(P) fit parameters and equation:
+C00 = 1.08809910027393
+C01 = -0.0292972497548913
+C02 = 0.000368452462755695
+C03 = -3.58761165253209e-06
+C04 = 3.04402605049795e-08
+C05 = -2.63906481693087e-10
+C06 = 4.30214204703771e-12
+C07 = -9.96535150583964e-14
+C08 = 1.64587880640498e-15
+C09 = -1.51497253828219e-17
+C10 = 5.87203704037561e-20
+fCc(x)  = C00 + C01*x + C02*x**2 + C03*x**3 + C04*x**4 + C05*x**5 + C06*x**6 + C07*x**7 + C08*x**8 + C09*x**9 + C10*x**10
+
+#Defining the K0c(P) fit parameters and equation:
+k00 = 0.298527156548395
+k01 = 0.00511345985294851
+k02 = 5.16736217158116e-05
+k03 = 5.45460014606063e-07
+k04 = 6.65362663904136e-09
+k05 = -2.53355309527626e-11
+k06 = 7.83784224418918e-12
+k07 = -2.94148562816238e-13
+k08 = 7.42678219750347e-15
+k09 = -9.56106294208488e-17
+k10 = 5.63698737760469e-19
+fK0c(x)  = k00 + k01*x + k02*x**2 + k03*x**3 + k04*x**4 + k05*x**5 + k06*x**6 + k07*x**7 + k08*x**8 + k09*x**9 + k10*x**10
+
+
+plot fCc(x)  title " {/Times-Italic C}_c fit ", \
+     fK0c(x) title " {/Times-Italic K}@^{{} {/Times-Italic l}0^{^{}}}_{c  } fit ", \
+     'Pdep_CcK0c.dat' using 4:1 with points linestyle 1 lc rgb "black" notitle, \
+     'Pdep_CcK0c.dat' using 4:2 with points linestyle 1 lc rgb "black" notitle

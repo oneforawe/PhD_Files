@@ -1,0 +1,66 @@
+ `gnuplot` is a command-driven interactive function and data plotting program.
+
+ Any command-line arguments are assumed to be names of files containing
+ `gnuplot` commands, with the exception of standard X11 arguments, which are
+ processed first.  Each file is loaded with the `load` command, in the order
+ specified.  `gnuplot` exits after the last file is processed.  The special
+ filename "-" is used to denote standard input.  When no load files are named,
+ `gnuplot` enters into an interactive mode.  See help for `batch/interactive`
+ for more details.
+
+ `gnuplot` is case sensitive (commands and function names written in lowercase
+ are not the same as those written in CAPS).  All command names may be
+ abbreviated as long as the abbreviation is not ambiguous.  Any number of
+ commands may appear on a line (with the exception that `load` or `call` must
+ be the final command), separated by semicolons (;).  Strings are indicated
+ with quotes.  They may be either single or double quotation marks, e.g.,
+
+       load "filename"
+       cd 'dir'
+
+ although there are some subtle differences (see `syntax` for more details).
+
+ Many `gnuplot` commands have multiple options. Version 4 is less sensitive
+ to the order of these options than earlier versions, but some order-dependence
+ remains. If you see error messages about unrecognized options, please try
+ again using the exact order listed in the documentation.
+
+ Commands may extend over several input lines by ending each line but the last
+ with a backslash (\).  The backslash must be the _last_ character on each
+ line.  The effect is as if the backslash and newline were not there.  That
+ is, no white space is implied, nor is a comment terminated.  Therefore,
+ commenting out a continued line comments out the entire command
+ (see `comments`).  But note that if an error occurs somewhere on a multi-line
+ command, the parser may not be able to locate precisely where the error is
+ and in that case will not necessarily point to the correct line.
+
+ In this document, curly braces ({}) denote optional arguments and a vertical
+ bar (|) separates mutually exclusive choices.  `gnuplot` keywords or `help`
+ topics are indicated by backquotes or `boldface` (where available).  Angle
+ brackets (<>) are used to mark replaceable tokens.  In many cases, a default
+ value of the token will be taken for optional arguments if the token is
+ omitted, but these cases are not always denoted with braces around the angle
+ brackets.
+
+ For on-line help on any topic, type `help` followed by the name of the topic
+ or just `help` or `?` to get a menu of available topics.
+
+ The new `gnuplot` user should begin by reading about `plotting` (if on-line,
+ type `help plotting`).
+
+ See the simple.dem demo, also available together with other demos on the web page
+           http://www.gnuplot.info/demo/simple.html
+
+Help topics available:
+                      DUMMYLABEL        backwards         batch/interactive
+    binary            binary_examples   bugs              canvas
+    colornames        colorspec         commands          comments
+    coordinates       copyright         datastrings       environment
+    examples          expressions       glossary          gnuplot-defined
+    gprintf           graphical         help-desk         introduction
+    line-editing      linecolor         linetype          mixing_macros_backquotes
+    mouse             new-features      newhistogram      object
+    plotting          quotes            set               show
+    startup           strings           substitution      syntax
+    terminal          time/date         using             version
+
