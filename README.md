@@ -1,4 +1,4 @@
-# PhD_Files
+# PhD Files
 
 This repository contains files related to my doctoral dissertation in physics, which is available here:
 https://www.andrew-forrester.com/files/docs/Dissertation_Forrester.pdf
