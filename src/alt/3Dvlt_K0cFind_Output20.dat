@@ -1,0 +1,15 @@
+# Source: 3Dvlt_K0cFind.c
+# Source version: 9 (2011 Aug 17 - ...)
+
+case 1:		Cc = 0.55;	K0c = 0.89628191724665;	break;
+case 2:		Cc = 0.5;	K0c = 0.9673144503113;	break;
+case 3:		Cc = 0.45;	K0c = 1.05206691666543;	break;
+case 4:		Cc = 0.4;	K0c = 1.1499901528476;	break;
+case 5:		Cc = 0.35;	K0c = 1.2691447320476;	break;
+case 6:		Cc = 0.3;	K0c = 1.42126933086456;	break;
+case 7:		Cc = 0.25;	K0c = 1.62576796989078;	break;
+case 8:		Cc = 0.2;	K0c = 1.91970214803414;	break;
+case 9:		Cc = 0.15;	K0c = 2.38612069089184;	break;
+case 10:		Cc = 0.1;	K0c = 3.26257962399342;	break;
+case 11:		Cc = 0.05;	K0c = 5.04213152037451;	break;
+case 12:		Cc = 0.05;	K0c = 5.04213152037451;	break;

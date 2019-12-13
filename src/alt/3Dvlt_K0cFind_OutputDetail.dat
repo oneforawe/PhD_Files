@@ -1,0 +1,7 @@
+case 1:	Cc = 1.10452071494107;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.295696907671308;
+case 2:	Cc = 1.0577252739907;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.303956391790806;
+case 3:	Cc = 0.905544314751893;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.335708313222586;
+case 4:	Cc = 0.730442365916635;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.385722578013619;
+case 5:	Cc = 0.667712310816633;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.408989667165927;
+case 6:	Cc = 0.588355485262497;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.444436571726223;
+case 7:	Cc = 0.532805265618466;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.474595341454781;

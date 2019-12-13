@@ -1,0 +1,16 @@
+# Filename: 3Dvlt_K0cFind_Plot_OutputDetail.dat
+# Source: 3Dvlt_K0cFind_Plot.c
+# Source version: 2 (2012 Jul 27 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063
+# Parameter values: A3=41.3417022403997549418, THETA=0.6, N=2, dl=0.0001, LDataPerOne=30, MRecDataSets=10, uncertainty=1e-17, DK01=2
+case 1:	Cc = 1.2;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.280544308975229;
+case 2:	Cc = 1.1;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.296468939006784;
+case 3:	Cc = 1;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.315036006898571;
+case 4:	Cc = 0.9;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.337035371070207;
+case 5:	Cc = 0.8;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.36362286558404;
+case 6:	Cc = 0.7;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.396566972896191;
+case 7:	Cc = 0.6;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.43873100720692;
+case 8:	Cc = 0.5;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.495108289971291;
+case 9:	Cc = 0.4;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.575343429648937;
+case 10:	Cc = 0.3;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.701090942066515;
+case 11:	Cc = 0.2;	calculated K0c is within K01+-DK01 = 2+-2 = (0, 4);	calculated K0c = 0.934654978121809;

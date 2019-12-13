@@ -1,0 +1,17 @@
+# Source: 3Dvlt_K0cFind.c
+# Source version: 9 (2011 Aug 17 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063
+# Parameter values: B=41.3417022403997549418, THETA=0.6, N=2, dl=0.0001, Kthresh=5, uncertainty=1e-17, DK01=5
+case 1:		Cc = 1.2;	K0c = 0.280544308975229;	break;
+case 2:		Cc = 1.1;	K0c = 0.296468939006784;	break;
+case 3:		Cc = 1;	K0c = 0.315036006898571;	break;
+case 4:		Cc = 0.9;	K0c = 0.337035371070207;	break;
+case 5:		Cc = 0.8;	K0c = 0.36362286558404;	break;
+case 6:		Cc = 0.7;	K0c = 0.39656697289679;	break;
+case 7:		Cc = 0.6;	K0c = 0.438731007210038;	break;
+case 8:		Cc = 0.5;	K0c = 0.495108289977297;	break;
+case 9:		Cc = 0.4;	K0c = 0.575343429658511;	break;
+case 10:		Cc = 0.3;	K0c = 0.701090942081052;	break;
+case 11:		Cc = 0.2;	K0c = 0.934654978144903;	break;
+case 12:		Cc = 0.1;	K0c = 5.00024331731314;	break;
+case 13:		Cc = 0.1;	K0c = 5.00024331731314;	break;

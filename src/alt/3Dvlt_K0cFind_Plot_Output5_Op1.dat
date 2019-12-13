@@ -1,0 +1,16 @@
+# Filename: 3Dvlt_K0cFind_Plot_Output5_Op1.dat
+# Source: 3Dvlt_K0cFind_Plot.c
+# Source version: 2 (2012 Jul 27 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063
+# Parameter values: A3=41.3417022403997549418, THETA=0.6, N=2, dl=0.0001, LDataPerOne=30, MRecDataSets=10, uncertainty=1e-17, DK01=2
+case 1:		Cc = 1.2;	K0c = 0.28054430897522875;	break;
+case 2:		Cc = 1.1;	K0c = 0.29646893900678406;	break;
+case 3:		Cc = 1;	K0c = 0.31503600689857081;	break;
+case 4:		Cc = 0.9;	K0c = 0.3370353710702072;	break;
+case 5:		Cc = 0.8;	K0c = 0.36362286558404022;	break;
+case 6:		Cc = 0.7;	K0c = 0.39656697289619136;	break;
+case 7:		Cc = 0.6;	K0c = 0.43873100720692004;	break;
+case 8:		Cc = 0.5;	K0c = 0.49510828997129086;	break;
+case 9:		Cc = 0.4;	K0c = 0.57534342964893703;	break;
+case 10:		Cc = 0.3;	K0c = 0.70109094206651523;	break;
+case 11:		Cc = 0.2;	K0c = 0.93465497812180942;	break;

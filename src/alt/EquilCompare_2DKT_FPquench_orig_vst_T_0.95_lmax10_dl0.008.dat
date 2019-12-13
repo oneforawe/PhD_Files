@@ -1,0 +1,17 @@
+# Filename: EquilCompare_2DKT_FPquench_orig_vst_T_0.95_lmax10_dl0.008.dat
+# Source: EquilCompare_2DKT_FPquench.c
+# Source version: 2 (2011 Apr 06 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063, B=124.025106721199264825
+# Parameter values: iTfrac=0.95, lmax=10, lsteps=1250, (dl=0.008), lpts=1251, ldatamax=250, a0=1, a04=1, K0c=0.747853
+# Filename: EquilCompare_2DKT_FPquench_mine_vst_T_0.95_lmax10_dl0.008.dat
+# Source: EquilCompare_2DKT_FPquench.c
+# Source version: 2 (2011 Apr 06 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063, B=124.025106721199264825
+# Parameter values: iTfrac=0.95, lmax=10, lsteps=1250, (dl=0.008), lpts=1251, ldatamax=250, a0=1, a04=1, K0c=0.747853
+# Filename: EquilCompare_2DKT_FPquench_chus_vst_T_0.95_lmax10_dl0.008.dat
+# Source: EquilCompare_2DKT_FPquench.c
+# Source version: 2 (2011 Apr 06 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063, B=124.025106721199264825
+# Parameter values: iTfrac=0.95, lmax=10, lsteps=1250, (dl=0.008), lpts=1251, ldatamax=250, a0=1, a04=1, K0c=0.747853
+# time-step	t	T/Tc	1-T/Tc	l	K	K/K0	G	vpdens
+0	0	0.95	0.05	10	0.749835	0.952518	1.08539e-24	0.000928136

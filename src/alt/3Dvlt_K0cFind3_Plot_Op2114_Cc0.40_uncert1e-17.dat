@@ -1,0 +1,13 @@
+# Filename: 3Dvlt_K0cFind3_Plot_Op2114_Cc0.40_uncert1e-17.dat
+# Source: 3Dvlt_K0cFind3_Plot.c
+# Source version: 1 (2012 Jun 07 - ...)
+# Constant values: PI= 3.141592653589793116, PISQ=9.8696044010893579923, PICU=31.0062766802998162063
+# Parameter values: OpA=2, OpAa=1, OpB=1, OpC=4, B=41.3417022403997549418, THETA=0.6, N=2, initialdl=1e-05, trajectorydl=0.0001, initialds=1e-05, trajectorydsMax=1e-05, uncertainty=1e-17, dataskipdl=100, dataskipds=999
+# Option-dependent values: K=0.387508189712343409372, y=0.0624210054576019024442, Kstar=0.387508189712343409372, ystar=0.0624210054576019024442, c=0.596855989378173079629, Z=3.70526847921412993969, lambda=-2.48878567955778740028, initialKdir=1, flowdir=-1, Max_steps=1000000
+# Initialized values: Deltas=0, Deltal=0, count_steps=0, count_passes=2, K0c=0.575343, oldK0c=0
+# Input-file parameter: Cc=0.4
+# Pass: count_passes=2 (to reach desired precision in K0c)
+# step	K	y	path-length-l	path-length-s (in K-y-space)
+0	0.38750818971234341	0.062421005457601902	0	0
+1	0.38751791398650065	0.062423337515087121	0	1e-05
+48018	0.57534342963170215	0.10317127392806927	-3.73931	0.192233

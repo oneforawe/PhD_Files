@@ -2,36 +2,36 @@
 *~
 
 # Specific files
-3Dvlt_FindK0c2_values.ods
-3Dvlt_K0cFind_Input39.dat
-3Dvlt_K0cFind_Input40.dat
-3Dvlt_K0cFind_Input41.dat
-3Dvlt_K0cFind_Output38_Op1_uncert1e-17_dl0.0001.dat
-3Dvlt_K0cFind_Output38_Op2_uncert1e-17_dl1e-05.dat
-3Dvlt_K0cFind_Output38_uncert1e-17_dl0.0001.dat
-3Dvlt_K0cFind_Output38_uncert1e-17_dl1e-05.dat
-3Dvlt_K0cFind_Output39_uncert1e-17_dl1e-05.dat
-3Dvlt_K0cFind_Output40_Op2_uncert1e-17_dl1e-05-uuu.dat
-3Dvlt_K0cFind_Output40_Op2_uncert1e-17_dl1e-05.dat
-3Dvlt_K0cFind_Output41_Op1_uncert1e-17_dl0.0001.dat
-3Dvlt_constT.c
-3Dvlt_flow.c
-3Dvlt_flow_Input1.dat
-a.out
-data_plots/00_THIS_IS_FOR_GITHUB.txt
-energy.tar
-src/00_THIS_IS_FOR_GITHUB.txt
+/3Dvlt_FindK0c2_values.ods
+/3Dvlt_K0cFind_Input39.dat
+/3Dvlt_K0cFind_Input40.dat
+/3Dvlt_K0cFind_Input41.dat
+/3Dvlt_K0cFind_Output38_Op1_uncert1e-17_dl0.0001.dat
+/3Dvlt_K0cFind_Output38_Op2_uncert1e-17_dl1e-05.dat
+/3Dvlt_K0cFind_Output38_uncert1e-17_dl0.0001.dat
+/3Dvlt_K0cFind_Output38_uncert1e-17_dl1e-05.dat
+/3Dvlt_K0cFind_Output39_uncert1e-17_dl1e-05.dat
+/3Dvlt_K0cFind_Output40_Op2_uncert1e-17_dl1e-05-uuu.dat
+/3Dvlt_K0cFind_Output40_Op2_uncert1e-17_dl1e-05.dat
+/3Dvlt_K0cFind_Output41_Op1_uncert1e-17_dl0.0001.dat
+/3Dvlt_constT.c
+/3Dvlt_flow.c
+/3Dvlt_flow_Input1.dat
+/a.out
+/data_plots/00_THIS_IS_FOR_GITHUB.txt
+/energy.tar
+/src/00_THIS_IS_FOR_GITHUB.txt
 
 # Specific sub-folders
-Crecipes/
-ENERGY/
-Mac/
-PreciseTry/
-alt/
-debug/
-notes/
-originals/
-practice/
-results/
-supporting/
+/Crecipes/
+/ENERGY/
+/Mac/
+/PreciseTry/
+/alt/
+/debug/
+/notes/
+/originals/
+/practice/
+/results/
+/supporting/
 

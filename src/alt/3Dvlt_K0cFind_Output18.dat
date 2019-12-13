@@ -1,0 +1,26 @@
+# Source: 3Dvlt_K0cFind.c
+# Source version: 9 (2011 Aug 17 - ...)
+
+case 1:		Cc = 1.2;	K0c = 0.581338115852507;	break;
+case 2:		Cc = 1.1;	K0c = 0.620937971001332;	break;
+case 3:		Cc = 1.06;	K0c = 0.63874148806135;	break;
+case 4:		Cc = 1.05;	K0c = 0.643392287493778;	break;
+case 5:		Cc = 1.04;	K0c = 0.648127593939526;	break;
+case 6:		Cc = 1.03;	K0c = 0.652949830522797;	break;
+case 7:		Cc = 1.02;	K0c = 0.657861515066906;	break;
+case 8:		Cc = 1.01;	K0c = 0.662865264792018;	break;
+case 9:		Cc = 1;	K0c = 0.667963801296259;	break;
+case 10:		Cc = 0.99;	K0c = 0.673159955840383;	break;
+case 11:		Cc = 0.98;	K0c = 0.678456674957857;	break;
+case 12:		Cc = 0.97;	K0c = 0.683857026414029;	break;
+case 13:		Cc = 0.9;	K0c = 0.724847465766739;	break;
+case 14:		Cc = 0.8;	K0c = 0.795233656032212;	break;
+case 15:		Cc = 0.7;	K0c = 0.884851298044873;	break;
+case 16:		Cc = 0.6;	K0c = 1.00326128477802;	break;
+case 17:		Cc = 0.55;	K0c = 1.07550489711638;	break;
+case 18:		Cc = 0.5;	K0c = 1.15822912454367;	break;
+case 19:		Cc = 0.4;	K0c = 1.37562590086347;	break;
+case 20:		Cc = 0.3;	K0c = 1.72106174708906;	break;
+case 21:		Cc = 0.2;	K0c = 2.37752155102254;	break;
+case 22:		Cc = 0.1;	K0c = 4.21133438353884;	break;
+case 23:		Cc = 0.1;	K0c = 4.21133438353884;	break;
