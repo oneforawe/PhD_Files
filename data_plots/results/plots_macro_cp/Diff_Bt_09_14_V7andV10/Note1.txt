@@ -1,0 +1,64 @@
+The changes in the data may not be all that important, but here's my initial investigation into the differences.
+
+
+
+
+Some Changes I can see
+----------------------
+
+
+In code/calculation:
+
+Comparing these two (V7 and V10):
+https://raw.githubusercontent.com/oneforawe/phd-files/master/src/alt/3Dvlt_macro_cp_v7_20111031_b4AddingMoreOutputs.c
+https://raw.githubusercontent.com/oneforawe/phd-files/master/src/3Dvlt_macro_cp.c
+
+Not sure if this is relevant to the change, but
+"Got rid of alpha, since it was not appropriate for this application (i.e., it wasn't experimental data - it was incomplete theoretical data)."
+
+Minor changes...
+
+const double cpfactor1 = 6646.4764064;  // see derivation below (used to use 6.65e3)
+const double cpfactor2 = 0.004002602;   // see derivation below (used to use 4.005e-4)
+
+V7
+// Calculate individual terms of cp (in terms of rho) //
+			cp01 = R*((6.65e3)/(rho*a0*a0*a0))*K0*K0*D2eDK02*( -1.0 );
+			cp02 = R*((6.65e3)/(rho*a0*a0*a0))*K0*DeDK0*(  4.0*(T/rho)*DrhoDT      );
+			cp03 = R*((6.65e3)/(rho*a0*a0*a0))*estimated.thrmv[2]*( -8.0*(T/rho)*DrhoDT                );
+			cp04 = R*((6.65e3)/(rho*a0*a0*a0))*estimated.thrmv[2]*( -2.0*(T*T/(rho*rho))*DrhoDT*DrhoDT );
+			cp05 = R*((6.65e3)/(rho*a0*a0*a0))*estimated.thrmv[2]*( -2.0*(T*T/rho)*D2rhoDT2            );
+			cp06 = -T*(100000*P)*(4.005e-4/rho)*(  2.0*(1.0/(rho*rho))*DrhoDT*DrhoDT );
+			cp07 = -T*(100000*P)*(4.005e-4/rho)*( -(1.0/rho)*D2rhoDT2                );
+
+
+V10
+// Calculate individual terms of cp (in terms of rho) //
+			cp01 = R*(cpfactor1/(rho*a0*a0*a0))*( -1.0*K0*K0*D2eDK02           );        //// originally cp01
+			cp03 = R*(cpfactor1/(rho*a0*a0*a0))*(  4.0*(T/rho)*DrhoDT*K0*DeDK0 );        //// originally cp02
+			cp05 = R*(cpfactor1/(rho*a0*a0*a0))*e*( -8.0*(T/rho)*DrhoDT                );//// originally cp04  (no, cp03)
+			cp07 = R*(cpfactor1/(rho*a0*a0*a0))*e*( -2.0*(T*T/(rho*rho))*DrhoDT*DrhoDT );//// originally cp05  (no, cp04)
+			cp04 = R*(cpfactor1/(rho*a0*a0*a0))*e*( -2.0*(T*T/rho)*D2rhoDT2            );//// originally cp03  (no, cp05)
+			cp06 = -T*(100000*P)*(cpfactor2/rho)*(  2.0*(1.0/(rho*rho))*DrhoDT*DrhoDT ); //// originally cp06
+			cp02 = -T*(100000*P)*(cpfactor2/rho)*( -(1.0/rho)*D2rhoDT2                ); //// originally cp07
+
+
+
+In values/results:
+
+Can see some "nan"s in the V10 cp results, compared to the V7 cp results (for P = 0.050).
+https://github.com/oneforawe/phd-files/blob/master/data_plots/results/plots_macro_cp/3D_14_itlogflow_dl0.0001_Thesis/3Dvlt_macro_cp_Tv_Op19_P00.050_DK05e-07_lmax100_dl0.0001.dat
+https://github.com/oneforawe/phd-files/blob/master/data_plots/results/plots_macro_cp/3D_09_Thesis/3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat
+
+Could look more at the data, and how the change in the code influenced the change in data.
+
+
+
+In fitting:
+
+from
+negalpha = 0.0150650568
+to
+negalpha = 0.015065056839536073
+
+
