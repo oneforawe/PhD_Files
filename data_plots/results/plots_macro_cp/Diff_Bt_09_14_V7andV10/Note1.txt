@@ -46,11 +46,11 @@ V10
 
 In values/results:
 
-Can see some "nan"s in the V10 cp results, compared to the V7 cp results (for P = 0.050).
+I can see some "nan"s in the V10 cp results, compared to the V7 cp results (for P = 0.050).
 https://github.com/oneforawe/phd-files/blob/master/data_plots/results/plots_macro_cp/3D_14_itlogflow_dl0.0001_Thesis/3Dvlt_macro_cp_Tv_Op19_P00.050_DK05e-07_lmax100_dl0.0001.dat
 https://github.com/oneforawe/phd-files/blob/master/data_plots/results/plots_macro_cp/3D_09_Thesis/3Dvlt_macro_cp_P00.050_DK05e-07_i47.dat
 
-Could look more at the data, and how the change in the code influenced the change in data.
+We could look more at the data, and how the change in the code influenced the change in data.
 
 
 
@@ -60,5 +60,10 @@ from
 negalpha = 0.0150650568
 to
 negalpha = 0.015065056839536073
+
+See
+https://github.com/oneforawe/phd-files/blob/master/data_plots/results/plots_macro_cp/3D_09_Thesis/fit_3Dvlt_macro_cp_DK05e-07_i47_CpVsTv_PowForm3.gnu
+vs
+https://github.com/oneforawe/phd-files/blob/master/data_plots/results/plots_macro_cp/3D_14_itlogflow_dl0.0001_Thesis/fit_3Dvlt_macro_cp_Tv_Op19_DK05e-07_lmax100_dl0.0001_CpVsTv_PowForm.gnu
 
 
